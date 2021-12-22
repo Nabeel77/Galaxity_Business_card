@@ -77,7 +77,7 @@ const FourthSection: NextPage = () => {
         <FourthSectionContainer>
             <BackgroundImage alt="gala-bot" src="/images/section_four_bg.png"/>
             <MintedNftsBox>
-                <MintedNftsBoxSpan>Over <NftNumberSpanText>1000 NFT'S</NftNumberSpanText> Minted before minting was available</MintedNftsBoxSpan>
+                <MintedNftsBoxSpan>Over <NftNumberSpanText>1000 NFTS</NftNumberSpanText> Minted before minting was available</MintedNftsBoxSpan>
             </MintedNftsBox>
         </FourthSectionContainer>
     )
