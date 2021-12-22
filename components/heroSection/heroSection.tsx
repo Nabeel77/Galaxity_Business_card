@@ -61,7 +61,7 @@ height: 40%;
 const GalaxityTextContainer = styled.div `
   position: relative;
   width: max-content;
-  left: 55%;
+  left: 59%;
   top: 30%;
   padding: 1px 1px 1px 0;
   display: flex;
@@ -91,7 +91,7 @@ const GalaxityTextContainer = styled.div `
 
 const GalaxityText = styled.p `
   font-family: Orbitron;
-  font-size: 13px;
+  font-size: 18px;
   letter-spacing: 1.34em;
   width: max-content;
   height: max-content;
@@ -116,8 +116,8 @@ const NftText = styled.p `
   font-family: Raleway-ExtraLight;
   position: relative;
   top: -15px;
-  font-size: 6px;
-  letter-spacing: 0.57em;
+  font-size: 11px;
+  letter-spacing: 0.3em;
   width: max-content;
   height: max-content;
   color: #606060;
@@ -141,7 +141,7 @@ const NftText = styled.p `
 const IconsContainer = styled.div`
     position: relative;
     top: -3%;
-    right: -94%;
+    right: -124%;
     width: max-content;
     height: max-content;
     @media screen and (min-width: 540px) {
@@ -153,7 +153,7 @@ const IconsContainer = styled.div`
     }
     @media only screen and (min-width: 1024px) {
         top: -9%;
-        right: -112%;
+        right: -396%;
     }
     @media only screen and (min-width: 1200px) {
       top: -12%;

@@ -28,8 +28,8 @@ const FooterBackground = styled.img `
 
 const GalabotAndGalaxityTextContainer = styled.div`
     position: relative;
-    top: -7em;
-    right: -8.5em;
+    top: -6em;
+    right: -9.5em;
     display: flex;
     width: 80vw;
     height: 15vh;
@@ -42,13 +42,13 @@ const GalabotAndGalaxityTextContainer = styled.div`
     @media only screen and (min-width: 1024px) {
         width: 55vw;
         top: -9em;
-        right: -24.5em;
+        right: -16.5em;
     }
 
     @media only screen and (min-width: 1400px) {
         width: 55vw;
         top: -12em;
-        right: -54.5em;
+        right: -50.5em;
     }
 `
 const GalaxityTextContainer = styled.div`
@@ -79,8 +79,12 @@ const GalaImageContainer = styled.div`
 
 const GalaImage = styled.img `
     float: right;
-    width: 60%;
+    width: 100%;
     height: 100%;
+    @media only screen and (min-width: 1400px) {
+        width: 50%;
+        height: 90%;
+    }
 `
 
 const IconsContainer = styled.div`
