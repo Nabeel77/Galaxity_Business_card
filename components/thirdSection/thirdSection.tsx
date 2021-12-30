@@ -6,6 +6,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import 'aos/dist/aos.css'
+import { Props } from 'next/script';
+
+interface StyleProps {
+    img?: string;
+  } 
 
 const ThirdSectionConttainer = styled.div `
     width: 170vw;
@@ -104,7 +109,7 @@ const Tweet = styled.div `
     }
 `
 
-const Rectangle = styled.div`
+const Rectangle = styled.div<StyleProps>`
     position: relative;
     width: 100%;
     height: 100%;
