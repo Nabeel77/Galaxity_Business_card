@@ -1,16 +1,22 @@
 import type { NextPage } from 'next'
 import styled from 'styled-components'
+import 'aos/dist/aos.css'
 
 const FourthSectionContainer = styled.div`
-    width: 140vw;
+    width: 170vw;
     position: relative;
-    top: -7rem;
+    top: -5rem;
     bottom: 0px;
     @media screen and (min-width: 1024px) {
+        top: -2rem;
         width: 120vw;
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1100px) {
         width: 100vw;
+        top: 10em;
+    }
+    @media screen and (min-width: 1400px) {
+        top: 18em;
     }
 `
 
@@ -24,15 +30,20 @@ const BackgroundImage = styled.img `
     height: 45rem;
     left: -9rem;
   }
+  @media screen and (min-width: 768px) {
+    width: 70rem;
+    height: 60rem;
+    left: -17rem;
+  }
 `
 const MintedNftsBox = styled.div `
-    width: 65%;
+    width: 70%;
     position: absolute;
-    left: 7rem;
+    left: 8rem;
     top: 8rem;
     height: auto;
     padding: 1px 1px 1px 0;
-    background: linear-gradient(to left, #126060,#000000);
+    background: linear-gradient(to left, #41FFFF,#000000);
     border-radius: 17px;
     @media screen and (min-width: 768px) {
         width: 65%;
@@ -44,6 +55,13 @@ const MintedNftsBox = styled.div `
         width: 73%;
         left: 20.5rem;
         top: 18rem;
+    }
+    @media only screen and (min-width: 1100px) {
+        width: 67%;
+    }
+    @media only screen and (min-width: 1400px) {
+        width: 71%;
+        top: 25rem;
     }
   `
 
@@ -73,8 +91,9 @@ color: ${({ theme }) => theme.colors.primary};
 `
 
 const FourthSection: NextPage = () => {
+
     return (
-        <FourthSectionContainer>
+        <FourthSectionContainer data-aos="zoom-in">
             <BackgroundImage alt="gala-bot" src="/images/section_four_bg.png"/>
             <MintedNftsBox>
                 <MintedNftsBoxSpan>Over <NftNumberSpanText>1000 NFTS</NftNumberSpanText> Minted before minting was available</MintedNftsBoxSpan>

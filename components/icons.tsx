@@ -20,6 +20,9 @@ const Discord = styled.a`
     font-size: 30px;
     color: white;
     cursor: pointer;
+    &:hover {
+        color: #9680E7;
+    }
 `
 
 const Twitter = styled.a`
@@ -29,14 +32,21 @@ const Twitter = styled.a`
     font-size: 30px;
     color: white;
     cursor: pointer;
+    &:hover {
+        color: #26A4F2;
+    }
 `
+
+const openLink = (link: string): void => {
+    window.open(link, "_blank")
+} 
 
 const Icons: NextPage = () => {
 
     return (
        <IconsContainer>
-           <Discord><FaDiscord/></Discord>
-           <Twitter><FaTwitter/></Twitter>
+           <Discord onClick={() => openLink('https://discord.gg/GqPVHwVdE2')}><FaDiscord/></Discord>
+           <Twitter onClick={() => openLink('https://twitter.com/Galaxityio')}><FaTwitter/></Twitter>
        </IconsContainer>
     )
 

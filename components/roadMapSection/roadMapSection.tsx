@@ -1,28 +1,37 @@
+import 'aos/dist/aos.css'
 import type { NextPage } from 'next'
 import styled from 'styled-components'
 import RoadmapList from './roadmapList';
 import { Q4List, Q1List } from '../data/roadmapListContent';
+import 'aos/dist/aos.css'
 
 const RoadmapContiner = styled.div `
     position: relative;
-    top: 18em;
+    top: 25em;
     left:25px;
     padding: 2em 1em;
-    width: 128vw;
+    width: 165vw;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     @media screen and (min-width: 768px) {
-        width: 120vw;
-        top: 40em;
+        width: 160vw;
+        top: 45em;
     }
     @media only screen and (min-width: 1024px) {
+        top: 50em;
         width: 120vw;
     }
     @media only screen and (min-width: 1200px) {
-        width: 100vw;
-        left:0px;
+        width: 93vw;
+        left: 3em;
+        top: 60em;
+    }
+    @media only screen and (min-width: 1400px) {
+        width: 93vw;
+        left: 3em;
+        top: 80em;
     }
 `
 
@@ -37,14 +46,21 @@ const RoadmapText  = styled.p `
         margin-left: 25px;
         font-size: 30px;
     }
+    @media screen and (min-width: 1100px) {
+        font-size: 45px;
+    }
 `
 
 const RoadmapListsParentContainer = styled.div `
     display: flex;
     flex-direction: column;
     jsutify-content: space-between;
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1100px) {
         flex-direction: row;
+        margin-top: 40px;
+    }
+    @media screen and (min-width: 1300px) {
+        margin-top: 70px;
     }
 `
 
@@ -66,7 +82,7 @@ const SingleRoadmapListContainer = styled.div `
 const RoadMap: NextPage = () => {
 
     return (
-        <RoadmapContiner>
+        <RoadmapContiner data-aos="zoom-in">
             <RoadmapText>Roadmap</RoadmapText>
             <RoadmapListsParentContainer>
             <SingleRoadmapListContainer>

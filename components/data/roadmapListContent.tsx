@@ -1,6 +1,6 @@
 export const Q4List: Array<string> = 
 [
-    "Development of Candy Machine and nft image scanner", 
+    "Development of Candy Machine and NFT image scanner", 
     "Minting bot is built",
     "Build of Burner Wallet",
     "Test and proof of concept"

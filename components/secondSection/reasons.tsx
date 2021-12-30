@@ -21,6 +21,9 @@ const MainContainer = styled.div `
     justify-content: space-between;
     align-items: center;
   }
+  @media screen and (min-width: 1024px) {
+    justify-content: flex-start;
+  }
 `
 
 const ReasonsContainer = styled.div `
@@ -28,6 +31,9 @@ const ReasonsContainer = styled.div `
   @media screen and (min-width: 786px) {
   margin-left: 19px;
   width: 20%;
+}
+@media screen and (min-width: 1024px) {
+  width: 18%;
 }
 `
 

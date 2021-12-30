@@ -1,3 +1,6 @@
+import { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import type { NextPage } from 'next'
 import styled from 'styled-components'
 import Hero from '../components/heroSection/heroSection';
@@ -9,18 +12,23 @@ import TheTeam from '../components/teamSection/teamSection'
 import FAQ from '../components/faqSection/faqSection'
 import Footer from '../components/footerSection/footerSection'
 
-const Container = styled.div`
+const Container = styled.section`
   width: 100%;
   height: 100%;
   margin: 0 auto;
 `
 
 const Home: NextPage = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+}, [])
+
   return (
     <Container>
       <Hero/>
       <SecindSectionContainer/>
-      <ThirdSection/>
+      <ThirdSection />
       <FourthSection />
       <RoadMap />
       <TheTeam />

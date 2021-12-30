@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import styled from 'styled-components'
 import Carousel from './reasons'
+import 'aos/dist/aos.css'
 
 const SecondSectionContainer = styled.div `
     width: 120vw;
@@ -14,16 +15,31 @@ const SecondSectionContainer = styled.div `
     top: -9em;
     @media screen and (min-width: 768px) {
         width: 100vw;
+        left: 3rem;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 100vw;
+        left: 0rem;
     }
 `
 const TextContainer = styled.div `
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 120vw;
     align-items: center;
-    margin: 0 auto;
     @media screen and (min-width: 768px) {
-        width: 100%;
+       margin-left: 3.5rem;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 110vw;
+        margin-left: 6.5rem;
+    }
+    @media screen and (min-width: 1100px) {
+        width: 90vw;
+        margin-left: 1.5rem;
+    }
+    @media only screen and (min-width: 1400px) {
+        margin-left: -8.5rem;
     }
 `
 
@@ -40,11 +56,11 @@ const MustHaveText = styled.p `
     }
 `
 const CarouselContainer = styled.div `
-    width: 128vw;
+    width: 170vw;
     height: content-wrap;
     align-items: center;
     @media screen and (min-width: 768px) {
-        width: 120vw;
+        width: 140vw;
         margin-left: 55px;
     }   
     @media screen and (min-width: 1024px) {
@@ -52,14 +68,14 @@ const CarouselContainer = styled.div `
         margin-left: 85px;
     }  
     @media screen and (min-width: 1200px) {
-        width: 80vw;
-        margin-left: 85px;
+        width: 90vw;
+        margin-left: 15px;
     }  
 `
 
 const SecondSection: NextPage = () => {
     return (
-        <SecondSectionContainer>
+        <SecondSectionContainer data-aos="zoom-in">
             <TextContainer>
                 <MustHaveText> GalaBot is your must-have Solana NFT toolset </MustHaveText>
             </TextContainer>

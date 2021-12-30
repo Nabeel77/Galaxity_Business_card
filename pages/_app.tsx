@@ -1,5 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import type { AppProps } from 'next/app'
+import Head from "next/head";
+import './styles.css'
 
 const GlobalStyle = createGlobalStyle`
   html,
@@ -7,8 +9,6 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     background-color: #000000;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   a {
@@ -55,6 +55,7 @@ const theme = {
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      
       <GlobalStyle />
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />

@@ -1,19 +1,29 @@
 import type { NextPage } from 'next'
 import styled from 'styled-components'
 import Icons from '../icons'
+import 'aos/dist/aos.css'
 
 const FooterContainer = styled.div`
     position: relative;
-    top: 50em;
+    top: 65em;
     left:0;
     bottom: 0;
-    width: 123vw;
+    width: 145vw;
     height: 50vh;
     @media screen and (min-width: 768px) {
-        top: 80em;
+        top: 100em;
     }
     @media only screen and (min-width: 1024px) {
         width: 96vw;
+        top: 85em;
+    }
+    @media only screen and (min-width: 1100px) {
+        width: 96vw;
+        top: 90em;
+    }
+    @media only screen and (min-width: 1400px) {
+        width: 96vw;
+        top: 130em;
     }
 `
 
@@ -24,12 +34,15 @@ const FooterBackground = styled.img `
     width: 100%;
     height: 160%;
   }   
+  @media only screen and (min-width: 1100px) {
+    height: 230%;
+ }
 `
 
 const GalabotAndGalaxityTextContainer = styled.div`
     position: relative;
-    top: -6em;
-    right: -9.5em;
+    top: -7em;
+    right: -12.5em;
     display: flex;
     width: 80vw;
     height: 15vh;
@@ -37,25 +50,31 @@ const GalabotAndGalaxityTextContainer = styled.div`
     @media screen and (min-width: 768px) {
         width: 90vw;
         top: -11em;
-        right: -17.5em;
+        right: -25.5em;
     }
     @media only screen and (min-width: 1024px) {
         width: 55vw;
         top: -9em;
-        right: -16.5em;
+        right: -24.5em;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        width: 55vw;
+        top: -8em;
+        right: -19.5em;
     }
 
     @media only screen and (min-width: 1400px) {
         width: 55vw;
         top: -12em;
-        right: -50.5em;
+        right: -40em;
     }
 `
 const GalaxityTextContainer = styled.div`
- display: flex;
- align-items: center;
- height: 100%;
- width: 70%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 70%;
 `
 
 const GalaxityText = styled.p `
@@ -71,19 +90,27 @@ const GalaxityText = styled.p `
   @media only screen and (min-width: 1024px) {
     font-size: 45px;
  }
+ @media only screen and (min-width: 1400px) {
+    font-size: 55px;
+ }
 `
 const GalaImageContainer = styled.div`
- height: 100%;
- width: 30%;
+    height: 100%;
+    width: 30%;
 `
 
 const GalaImage = styled.img `
     float: right;
     width: 100%;
     height: 100%;
-    @media only screen and (min-width: 1400px) {
-        width: 50%;
-        height: 90%;
+    @media screen and (min-width: 768px) {
+        width: 85%;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 60%;
+    }
+    @media screen and (min-width: 1400px) {
+        width: 40%;
     }
 `
 
@@ -107,7 +134,7 @@ const IconsContainer = styled.div`
 const Footer: NextPage = () => {
 
     return (
-        <FooterContainer>
+        <FooterContainer data-aos="zoom-in">
             <FooterBackground src="/images/mint_footer.png" alt="footer-image"/>
             <GalabotAndGalaxityTextContainer>
                 <GalaImageContainer>

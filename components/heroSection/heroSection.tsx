@@ -3,15 +3,19 @@ import styled from 'styled-components'
 import Icons from '../icons'
 
 const HeroContainer = styled.div`
-  width: 100vw;
+  width: 120vw;
   height: 100vh;
   position: relative;
   top: -20px;
   @media screen and (min-width: 540px) {
-    width:29%
+    width:32%
+  }
+  @media screen and (min-width: 768px) {
+    width:35%
   }
   @media only screen and (min-width: 1080px) {
     width: 100%;
+    height: 135vh;
   }
 `
 const HeroBackground = styled.div`
@@ -20,7 +24,7 @@ const HeroBackground = styled.div`
     position: absolute;
     left: 0px;
     top: 0px;
-    @media screen and (min-width: 540px) {
+    @media screen and (min-width: 768px) {
       width:100vw;
      }
 `
@@ -31,13 +35,13 @@ const HeroImage = styled.img `
   width: 100%;
   height: 100%;
   @media only screen and (min-width: 1200px) {
-    width: 70%;
+    width: 80%;
     height: 100%;
     top: -16%;
     left: -22%;
   }
-  @media only screen and (min-width: 1500px) {
-    width: 70%;
+  @media only screen and (min-width: 1300px) {
+    width: 80%;
   }
 `
 
@@ -52,16 +56,22 @@ height: 40%;
   left: 6%;
 }
 @media screen and (min-width: 1200px) {
+  width: 45%;
+  height: 60%;
+  top: 12%;
+  left: 3%;
+}
+@media screen and (min-width: 1400px) {
   width: 35%;
   height: 55%;
   top: 15%;
-  left: 1%;
+  left: 7%;
 }
 `
 const GalaxityTextContainer = styled.div `
   position: relative;
   width: max-content;
-  left: 59%;
+  left: 75%;
   top: 30%;
   padding: 1px 1px 1px 0;
   display: flex;
@@ -72,7 +82,7 @@ const GalaxityTextContainer = styled.div `
     top: 24%;
   }
   @media screen and (min-width: 768px) {
-    left: 58%;
+    left: 200%;
     top: 25%;
   }
 @media only screen and (min-width: 1024px) {
@@ -80,12 +90,12 @@ const GalaxityTextContainer = styled.div `
     top: 20rem;
  }
  @media only screen and (min-width: 1200px) {
-  left: 33rem;
-  top: 11rem;
+  left: 40rem;
+  top: 20rem;
  }
- @media only screen and (min-width: 1500px) {
-  left: 49rem;
-  top: 18rem;
+ @media only screen and (min-width: 1400px) {
+  left: 59rem;
+  top: 28rem;
 }
 `
 
@@ -100,7 +110,7 @@ const GalaxityText = styled.p `
     font-size: 25px;
   }
   @media screen and (min-width: 768px) {
-    font-size: 33px;
+    font-size: 40px;
   }
   @media only screen and (min-width: 1024px) {
     font-size: 40px;
@@ -116,16 +126,16 @@ const NftText = styled.p `
   font-family: Raleway-ExtraLight;
   position: relative;
   top: -15px;
-  font-size: 11px;
-  letter-spacing: 0.3em;
+  font-size: 9px;
+  letter-spacing: 0.57em;
   width: max-content;
   height: max-content;
-  color: #606060;
+  color: white;
   @media only screen and (min-width: 540px) {
     font-size: 10px;
   }
   @media only screen and (min-width: 768px) {
-    font-size: 15px;
+    font-size: 20px;
   }
   @media only screen and (min-width: 1024px) {
     top: -30px;
@@ -140,8 +150,8 @@ const NftText = styled.p `
 `
 const IconsContainer = styled.div`
     position: relative;
-    top: -3%;
-    right: -124%;
+    top: -7%;
+    right: -140%;
     width: max-content;
     height: max-content;
     @media screen and (min-width: 540px) {
@@ -149,11 +159,11 @@ const IconsContainer = styled.div`
       right: -410%;
      }
     @media screen and (min-width: 768px) {
-        right: -120%;
+        right: -450%;
     }
     @media only screen and (min-width: 1024px) {
         top: -9%;
-        right: -396%;
+        right: -112%;
     }
     @media only screen and (min-width: 1200px) {
       top: -12%;

@@ -21,8 +21,14 @@ const RoadmapListBox = styled.div `
     width: 100%;
     height: 9vh;
     padding: 1px 1px 1px 0;
-    background: linear-gradient(to left, #126060,#000000);
+    background: linear-gradient(to left, #41FFFF,#000000);
     border-radius: 17px;
+    @media screen and (min-width: 1100px) {
+        margin-top: 40px;
+    }
+    @media screen and (min-width: 1400px) {
+        margin-top: 55px;
+    }
     
   `
 
@@ -60,6 +66,14 @@ const Circle = styled.img `
     @media screen and (min-width: 768px) {
         left: 13px;
     }
+    @media screen and (min-width: 1100px) {
+        top: 30px;
+        left: 20px
+    }
+    @media screen and (min-width: 1400px) {
+        top: 40px;
+        left: 20px
+    }
 `
 const QuarterText = styled.h3 `
     position: absolute;
@@ -70,6 +84,14 @@ const QuarterText = styled.h3 `
     color: white;
     @media screen and (min-width: 768px) {
         left: 36px;
+    }
+    @media screen and (min-width: 1100px) {
+        top: 35px;
+        left: 40px
+    }
+    @media screen and (min-width: 1400px) {
+        top: 45px;
+        left: 40px
     }
 `
     

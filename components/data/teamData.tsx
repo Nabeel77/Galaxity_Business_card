@@ -5,3 +5,10 @@ export const teamListArr: {imageSrc: string, role: string, name: string}[] = [
     {imageSrc: "/images/Galabot_nabeel.png", role: "Head of departmen.", name: "Ralfs Lagzda"},
     
 ]
+
+export const teamNames: string[] = [
+    "Gala",
+    "Davido",
+    "EasyE",
+    "Nixen"
+]

@@ -1,0 +1,41 @@
+.slick-dots li button::before {
+    font-size: 8px !important;
+    color: #1C8080 !important;
+    opacity: 0.8 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #41FFFF !important;
+}
+
+.slick-dots {
+    bottom: -43px !important;
+    margin: 0 2px !important;
+}
+
+.slick-dots li {
+    margin: 0 -2px !important;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .slick-dots li button::before {
+        font-size: 13px !important;
+    }
+    .slick-dots {
+        bottom: -103px !important;
+    }
+    .slick-dots li {
+        margin: 0 0px !important;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .slick-dots li button::before {
+        font-size: 16px !important;
+    }
+    .slick-dots li {
+        margin: 0 2px !important;
+    }
+}
