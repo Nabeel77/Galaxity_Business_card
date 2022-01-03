@@ -17,6 +17,7 @@ const TeamSectionContainer = styled.div`
         left: 60px;
     }
     @media screen and (min-width: 1024px) {
+      width: 90vw;
       top: 50em;
   }
   @media only screen and (min-width: 1200px) {
@@ -75,7 +76,7 @@ const TeamCardsContainer = styled.div `
     top: 15rem;
   }
   @media screen and (min-width: 1024px) {
-    top: 10rem;
+    top: 15rem;
   }
   @media screen and (min-width: 1400px) {
     left: -6rem;
