@@ -4,7 +4,7 @@ import Carousel from './reasons'
 import 'aos/dist/aos.css'
 
 const SecondSectionContainer = styled.div `
-    width: 120vw;
+    width: 30rem;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -60,7 +60,7 @@ const MustHaveText = styled.p `
     }
 `
 const CarouselContainer = styled.div `
-    width: 160vw;
+    width: 34rem;
     height: content-wrap;
     align-items: center;
     margin-top: 70px;
@@ -80,7 +80,7 @@ const CarouselContainer = styled.div `
 
 const SecondSection: NextPage = () => {
     return (
-        <SecondSectionContainer data-aos="zoom-in">
+        <SecondSectionContainer>
             <TextContainer>
                 <MustHaveText> GalaBot is your must-have Solana NFT toolset </MustHaveText>
             </TextContainer>

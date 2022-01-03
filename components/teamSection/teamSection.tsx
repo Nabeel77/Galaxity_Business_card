@@ -8,7 +8,7 @@ const TeamSectionContainer = styled.div`
     top: 25em;
     left:0;
     padding: 2em 2em;
-    width: 108vw;
+    width: 20rem;
     height: max-content;
     justify-content: space-between;
     @media screen and (min-width: 768px) {
@@ -48,7 +48,7 @@ const TheTeamText  = styled.p `
 
 const TeamSectionBackground = styled.img `
   position: absolute;
-  width: 47rem;
+  width: 40rem;
   height: 75rem;
   left: -5.5rem;
   top: 1rem;
@@ -88,7 +88,7 @@ const TeamCardsContainer = styled.div `
 const TheTeam: NextPage = () => {
 
     return (
-        <TeamSectionContainer data-aos="zoom-in"> 
+        <TeamSectionContainer> 
             <TheTeamText>The Team</TheTeamText>
             <TeamSectionBackground alt="team-background" src="/images/team_background.png" />
             <TeamCardsContainer> 

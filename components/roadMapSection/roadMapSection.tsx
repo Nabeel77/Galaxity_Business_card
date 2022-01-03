@@ -10,7 +10,7 @@ const RoadmapContiner = styled.div `
     top: 25em;
     left:25px;
     padding: 2em 1em;
-    width: 165vw;
+    width: 36rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -87,7 +87,7 @@ const SingleRoadmapListContainer = styled.div `
 const RoadMap: NextPage = () => {
 
     return (
-        <RoadmapContiner data-aos="zoom-in">
+        <RoadmapContiner>
             <RoadmapText>Roadmap</RoadmapText>
             <RoadmapListsParentContainer>
             <SingleRoadmapListContainer>

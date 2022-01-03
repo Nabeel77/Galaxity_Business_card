@@ -1,6 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import type { AppProps } from 'next/app'
-import Head from "next/head";
 import './styles.css'
 
 const GlobalStyle = createGlobalStyle`

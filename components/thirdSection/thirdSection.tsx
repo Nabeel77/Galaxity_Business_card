@@ -12,7 +12,7 @@ interface StyleProps {
 }
 
 const ThirdSectionConttainer = styled.div`
-    width: 160vw;
+    width: 34rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -51,7 +51,7 @@ const NeverEndingText = styled.p`
     font-family: Orbitron;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
     margin: ${({ theme }) => theme.centerChildStyle.margin}; 
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 0.6em;
     text-align: left;
     color: white;
@@ -175,7 +175,7 @@ const ThirdSection: NextPage = () => {
     }, [width])
 
     return (
-        <ThirdSectionConttainer data-aos="zoom-in">
+        <ThirdSectionConttainer >
             <NeverEndingTexttContainer>
                 <NeverEndingText>Never Ending Battle</NeverEndingText>
             </NeverEndingTexttContainer>

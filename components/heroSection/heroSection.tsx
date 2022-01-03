@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Icons from '../icons'
 
 const HeroContainer = styled.div`
-  width: 100vw;
+  width: 22rem;
   height: 100vh;
   position: relative;
   top: -20px;
@@ -71,7 +71,7 @@ height: 40%;
 const GalaxityTextContainer = styled.div `
   position: relative;
   width: max-content;
-  left: 65%;
+  left: 60%;
   top: 28%;
   padding: 1px 1px 1px 0;
   display: flex;

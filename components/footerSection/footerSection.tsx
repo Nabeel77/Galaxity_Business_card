@@ -134,7 +134,7 @@ const IconsContainer = styled.div`
 const Footer: NextPage = () => {
 
     return (
-        <FooterContainer data-aos="zoom-in">
+        <FooterContainer>
             <FooterBackground src="/images/mint_footer.png" alt="footer-image"/>
             <GalabotAndGalaxityTextContainer>
                 <GalaImageContainer>

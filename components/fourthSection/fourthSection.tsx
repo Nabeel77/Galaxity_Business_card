@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import 'aos/dist/aos.css'
 
 const FourthSectionContainer = styled.div`
-    width: 170vw;
+    width: 34rem;
     position: relative;
     top: -5rem;
     bottom: 0px;
@@ -37,7 +37,7 @@ const BackgroundImage = styled.img `
   }
 `
 const MintedNftsBox = styled.div `
-    width: 70%;
+    width: 75%;
     position: absolute;
     left: 8rem;
     top: 8rem;
@@ -106,7 +106,7 @@ color: ${({ theme }) => theme.colors.primary};
 const FourthSection: NextPage = () => {
 
     return (
-        <FourthSectionContainer data-aos="zoom-in">
+        <FourthSectionContainer>
             <BackgroundImage alt="gala-bot" src="/images/section_four_bg.png"/>
             <MintedNftsBox>
                 <MintedNftsBoxSpan>Over <NftNumberSpanText>{`1000 NFT'S`}</NftNumberSpanText> Minted before minting was available</MintedNftsBoxSpan>

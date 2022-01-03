@@ -12,8 +12,6 @@ export const FAQQuestions: Array<string> =
     "What next?",
     "How can I access to tools",
     "DAO",
-    "When merch?",
-    "How community wallet works",
     "Join Us"
 ];
 
@@ -34,15 +32,6 @@ export const FAQAnswers: Array<string> =
     `
       Our DAO will begin setup in our Discord, We use Grape Protocol to verify holders. We are finalizing 
       roles and voting systems, but in future, DAO members will be able to vote on use of the community 
-      fund and the direction of the project`,
-     `
-       We are planning to do merchandise. We will be doing hoodies, t-shirts, hats, accessories and city 
-       figures. The mission here is to establish a community in which members are proud to be a part of and
-        can show off their exclusive membership to the world.
-      `,
-      `
-        We will save 30% of the secondary royalties in the community in the DAO wallet and how to spend 30%
-        of the secondary royalties will be up to you.
-      `
+      fund and the direction of the project`
 ]
 ;

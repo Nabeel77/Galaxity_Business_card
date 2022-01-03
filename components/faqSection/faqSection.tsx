@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 const FAQSectionContainer = styled.div`
     position: relative;
     top: 76em;
-    left: 0px;
+    left: 10px;
     padding: 0 1em 1em 2em;
     width: 170vw;
     justify-content: space-between;
@@ -53,7 +53,7 @@ const FAQText  = styled.p `
 `
 
 const FAQTextContainer = styled.div `
-    width:  97%;
+    width:  35rem;
     height: max-content;
     padding: 1px 1px 0 1px;
     background: linear-gradient(to bottom, #41FFFF,#000000);
@@ -72,7 +72,7 @@ const FAQTextSpan = boxGradientBorderBackgroundSpanVertical
 const FAQ: NextPage = () => {
 
     return (
-        <FAQSectionContainer data-aos="zoom-in"> 
+        <FAQSectionContainer> 
             <FAQText>FAQ</FAQText>
             <FAQTextContainer>
                 <FAQTextSpan>

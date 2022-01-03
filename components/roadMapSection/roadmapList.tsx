@@ -35,7 +35,7 @@ const RoadmapListBox = styled.div `
   const RoadmapListBoxSpan = styled.span `
     font-family: Raleway-ExtraLight;
     padding: 17px 3px 0 7px;
-    font-size: 23px;
+    font-size: 20px;
     color: #707070;
     text-align: left;
     display: flex;

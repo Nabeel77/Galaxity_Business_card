@@ -5,7 +5,7 @@ import { boxGradientBorderBackgroundDivVertical, boxGradientBorderBackgroundSpan
 
   const NumberingText = styled.h2`
   font-family: Orbitron;
-  font-size: 30px;
+  font-size: 27px;
   text-align: justify;
   text-justify: inter-word;
   color: ${({ theme }) => theme.colors.primary};
@@ -40,12 +40,19 @@ const ReasonsContainer = styled.div `
 }
 `
 
-const ReasonItem = boxGradientBorderBackgroundDivVertical(80, null);
+
+const ReasonItem = styled.div `
+  width:  80%;
+  height: 15em;
+  padding: 1px 1px 0 1px;
+  background: linear-gradient(to bottom, #41FFFF,#000000);
+  border-radius: 17px;
+`;
 
 const ReasonText = styled.div `
   font-family: Orbitron;
   padding: 17px 3px 0 7px;
-  font-size: 25px;
+  font-size: 23px;
   color: white;
   text-align: left;
   background: #000;

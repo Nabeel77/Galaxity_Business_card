@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Orbitron;
+    src: url('./orbitron-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: Raleway-Bold;
+    src: url('./Raleway-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: Raleway-ExtraLight;
+    src: url('./Raleway-ExtraLight.ttf');
+  }
+
+  @font-face {
+    font-family: Raleway-Regular;
+    src: url('./Raleway-Regular.ttf');
+  }
