@@ -172,7 +172,7 @@ const ThirdSection: NextPage = () => {
             slidesToShow: width >= 1300 ? 3 : width > 768 && width < 1300 ? 2 : 1
         })
 
-    }, [width])
+    }, [width, settings])
 
     return (
         <ThirdSectionConttainer >
