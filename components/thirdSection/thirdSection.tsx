@@ -27,7 +27,7 @@ const ThirdSectionConttainer = styled.div`
     }
     @media screen and (min-width: 1024px) {
         width: 96vw;
-        left: 3em;
+        left: 2em;
     }
     @media screen and (min-width: 1100px) {
         top: -2em;
@@ -82,6 +82,7 @@ const TweetsContainer = styled.div`
     @media screen and (min-width: 1024px) {
         margin-top: 40px;
         height: 14rem;
+        left: 5px;
     }
     @media screen and (min-width: 1400px) {
         margin-left: 70px;

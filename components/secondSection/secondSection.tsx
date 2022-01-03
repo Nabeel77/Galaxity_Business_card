@@ -24,7 +24,6 @@ const SecondSectionContainer = styled.div `
     }
     @media screen and (min-width: 1400px) {
         width: 80vw;
-        left: 6rem;
     }
 `
 const TextContainer = styled.div `
@@ -70,11 +69,11 @@ const CarouselContainer = styled.div `
         margin-left: 55px;
     }   
     @media screen and (min-width: 1024px) {
-        width: 110vw;
+        width: 100vw;
         margin-left: 85px;
     }  
     @media screen and (min-width: 1200px) {
-        width: 90vw;
+        width: 85vw;
         margin-left: 15px;
     }  
 `
