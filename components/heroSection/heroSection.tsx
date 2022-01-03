@@ -32,7 +32,7 @@ const HeroImage = styled.img `
   position: absolute;
   top: -23%;
   left: -23%;
-  width: 100%;
+  width: 120%;
   height: 100%;
   @media only screen and (min-width: 1200px) {
     width: 80%;
@@ -48,7 +48,7 @@ const HeroImage = styled.img `
 const GalaImage = styled.img `
 position: absolute;
 top: 15%;
-left: 4%;
+left: 15%;
 width: 60%;
 height: 40%;
 @media screen and (min-width: 768px) {
@@ -71,7 +71,7 @@ height: 40%;
 const GalaxityTextContainer = styled.div `
   position: relative;
   width: max-content;
-  left: 60%;
+  left: 80%;
   top: 28%;
   padding: 1px 1px 1px 0;
   display: flex;
@@ -151,7 +151,7 @@ const NftText = styled.p `
 const IconsContainer = styled.div`
     position: relative;
     top: -5%;
-    right: -155%;
+    right: -175%;
     width: max-content;
     height: max-content;
     @media screen and (min-width: 540px) {

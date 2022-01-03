@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 
 const FAQSectionContainer = styled.div`
     position: relative;
-    top: 76em;
+    top: 80em;
     left: 10px;
     padding: 0 1em 1em 2em;
     width: 170vw;
@@ -39,6 +39,7 @@ const FAQText  = styled.p `
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock};  
     letter-spacing: 0.5em;
     text-align: left;
+    margin-left: 2em;
     color: white;
     @media screen and (min-width: 768px) {
         margin-left: 0px;
@@ -56,6 +57,7 @@ const FAQTextContainer = styled.div `
     width:  35rem;
     height: max-content;
     padding: 1px 1px 0 1px;
+    margin-left: 2.4em;
     background: linear-gradient(to bottom, #41FFFF,#000000);
     border-radius: 17px;
     @media screen and (min-width: 768px) {

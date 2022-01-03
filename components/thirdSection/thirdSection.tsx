@@ -12,7 +12,7 @@ interface StyleProps {
 }
 
 const ThirdSectionConttainer = styled.div`
-    width: 34rem;
+    width: 36rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -20,6 +20,7 @@ const ThirdSectionConttainer = styled.div`
     padding: 2em 2em;
     position: relative;
     top: -7em;
+    left: 3em;
     @media screen and (min-width: 768px) {
         width: 77em;
         left: 7em;

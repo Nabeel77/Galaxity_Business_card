@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 
 const FooterContainer = styled.div`
     position: relative;
-    top: 70em;
+    top: 75em;
     left:0;
     bottom: 0;
     width: 145vw;

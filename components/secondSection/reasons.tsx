@@ -17,7 +17,7 @@ import { boxGradientBorderBackgroundDivVertical, boxGradientBorderBackgroundSpan
 const MainContainer = styled.div `
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 107%;
   height: fit-content;
   @media screen and (min-width: 786px) {
     flex-direction: row;

@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 const TeamSectionContainer = styled.div`
     position: relative;
     top: 25em;
-    left:0;
+    left:3em;
     padding: 2em 2em;
     width: 20rem;
     height: max-content;

@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 const RoadmapContiner = styled.div `
     position: relative;
     top: 25em;
-    left:25px;
+    left: 3em;
     padding: 2em 1em;
     width: 36rem;
     height: auto;

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const RoadmapContentContainer = styled.div`
     display: flex; 
     flex-direction: column;
-    width: 100%;
+    width: 107%;
     @media screen and (min-width: 1024px) {
         flex-direction: row;
     }
