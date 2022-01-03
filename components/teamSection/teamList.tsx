@@ -6,9 +6,10 @@ import { boxGradientBorderBackgroundSpanVertical } from '../globalStyles';
 
 const MainContainer = styled.div `
   display: flex;
-  width: 35rem;
+  width: 37rem;
   height: 100vh;
   margin-top: 20px;
+  margin-left: -35px;
   flex-wrap: wrap;
   align-items: center;
   @media screen and (min-width: 768px) {

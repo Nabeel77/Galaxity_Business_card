@@ -43,7 +43,7 @@ const NeverEndingTexttContainer = styled.div`
     width: content-wrap;
     height: content-wrap;
     @media screen and (min-width: 1400px) {
-        margin-left: 90px;
+        margin-left: 40px;
     }
 
 `
