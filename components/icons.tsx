@@ -11,6 +11,10 @@ const IconsContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     z-index: 9999;
+    @media screen and (min-width: 768px) {
+        width: 10%;
+        height: 20;
+    }
 `
 
 const Discord = styled.a`

@@ -5,13 +5,13 @@ import 'aos/dist/aos.css'
 
 const FooterContainer = styled.div`
     position: relative;
-    top: 65em;
+    top: 70em;
     left:0;
     bottom: 0;
     width: 145vw;
     height: 50vh;
     @media screen and (min-width: 768px) {
-        top: 100em;
+        top: 125em;
     }
     @media only screen and (min-width: 1024px) {
         width: 96vw;
@@ -19,7 +19,7 @@ const FooterContainer = styled.div`
     }
     @media only screen and (min-width: 1100px) {
         width: 96vw;
-        top: 90em;
+        top: 105em;
     }
     @media only screen and (min-width: 1400px) {
         width: 96vw;
@@ -30,6 +30,9 @@ const FooterContainer = styled.div`
 const FooterBackground = styled.img `
   width: 110%;
   height: 100%;
+  @media only screen and (min-width: 768px) {
+    height: 130%;
+  }  
   @media only screen and (min-width: 1024px) {
     width: 100%;
     height: 160%;
@@ -48,9 +51,9 @@ const GalabotAndGalaxityTextContainer = styled.div`
     height: 15vh;
     justify-content: space-around;
     @media screen and (min-width: 768px) {
-        width: 90vw;
+        width: 80vw;
         top: -11em;
-        right: -25.5em;
+        right: -18.5em;
     }
     @media only screen and (min-width: 1024px) {
         width: 55vw;
@@ -74,29 +77,29 @@ const GalaxityTextContainer = styled.div`
     display: flex;
     align-items: center;
     height: 100%;
-    width: 70%;
+    width: 60%;
 `
 
 const GalaxityText = styled.p `
   font-family: Orbitron;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1em;
   width: max-content;
   height: max-content;
   color: ${({ theme }) => theme.colors.primary};
   @media screen and (min-width: 768px) {
-    font-size: 30px;
+    font-size: 45px;
   }
   @media only screen and (min-width: 1024px) {
-    font-size: 45px;
+    font-size: 40px;
  }
  @media only screen and (min-width: 1400px) {
-    font-size: 55px;
+    font-size: 45px;
  }
 `
 const GalaImageContainer = styled.div`
     height: 100%;
-    width: 30%;
+    width: 50%;
 `
 
 const GalaImage = styled.img `
@@ -104,12 +107,9 @@ const GalaImage = styled.img `
     width: 100%;
     height: 100%;
     @media screen and (min-width: 768px) {
-        width: 85%;
+        width: 70%;
     }
     @media screen and (min-width: 1024px) {
-        width: 60%;
-    }
-    @media screen and (min-width: 1400px) {
         width: 40%;
     }
 `

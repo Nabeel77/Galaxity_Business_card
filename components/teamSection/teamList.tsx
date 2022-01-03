@@ -6,14 +6,14 @@ import { boxGradientBorderBackgroundSpanVertical } from '../globalStyles';
 
 const MainContainer = styled.div `
   display: flex;
-  width: 160vw;
+  width: 155vw;
   height: 100vh;
-  margin-top: -60px;
+  margin-top: -40px;
   flex-wrap: wrap;
   align-items: center;
   @media screen and (min-width: 768px) {
     margin-top: -80px;
-    margin-left: 30px;
+    margin-left: 2px;
     height: 75vh;
    }
   @media screen and (min-width: 1024px) {
@@ -64,20 +64,23 @@ const LibauGalaBot = styled.img `
 
 const TeamItem = styled.div `
   width:  80%;
-  height: 15rem;
+  height: 18rem;
   padding: 1px 1px 0 1px;
   background: linear-gradient(to bottom, #41FFFF,#000000);
   border-radius: 17px;
   @media screen and (min-width: 768px) {
     width:  65%;
-    height: 20rem;
+    height: 29rem;
    }
    @media screen and (min-width: 1024px) {
     width:  80%;
     height: 15rem;
    }
+   @media screen and (min-width: 1100px) {
+    width:  85%;
+   }
    @media screen and (min-width: 1400px) {
-    width:  60%;
+    width:  65%;
     height: 90%;
    }
 `;
@@ -86,6 +89,14 @@ const Name = styled.p `
   font-family: Raleway-Regular;
   margin-top: 20px;
   color: white;
+  font-size: 25px;
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+   }
+
+   @media screen and (min-width: 768px) {
+    font-size: 25px;
+   }
 `
 
 const TeamItemBackground = boxGradientBorderBackgroundSpanVertical

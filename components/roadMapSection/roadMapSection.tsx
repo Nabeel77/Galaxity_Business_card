@@ -17,7 +17,8 @@ const RoadmapContiner = styled.div `
     justify-content: space-between;
     @media screen and (min-width: 768px) {
         width: 160vw;
-        top: 45em;
+        left: 65px;
+        top: 60em;
     }
     @media only screen and (min-width: 1024px) {
         top: 50em;
@@ -26,7 +27,7 @@ const RoadmapContiner = styled.div `
     @media only screen and (min-width: 1200px) {
         width: 93vw;
         left: 3em;
-        top: 60em;
+        top: 70em;
     }
     @media only screen and (min-width: 1400px) {
         width: 93vw;
@@ -37,17 +38,21 @@ const RoadmapContiner = styled.div `
 
 const RoadmapText  = styled.p `
     font-family: Orbitron;
-    font-size: 15px;
+    font-size: 25px;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock};  
     letter-spacing: 0.5em;
     text-align: left;
     color: white;
     @media screen and (min-width: 768px) {
         margin-left: 25px;
-        font-size: 30px;
+        font-size: 45px;
     }
     @media screen and (min-width: 1100px) {
         font-size: 45px;
+    }
+
+    @media screen and (min-width: 1400px) {
+        font-size: 55px;
     }
 `
 

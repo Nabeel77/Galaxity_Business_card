@@ -21,11 +21,15 @@ const SecondSectionContainer = styled.div `
         width: 100vw;
         left: 0rem;
     }
+    @media screen and (min-width: 1400px) {
+        width: 80vw;
+        left: 6rem;
+    }
 `
 const TextContainer = styled.div `
     display: flex;
     flex-direction: column;
-    width: 120vw;
+    width: 140%;
     align-items: center;
     @media screen and (min-width: 768px) {
        margin-left: 3.5rem;
@@ -39,13 +43,13 @@ const TextContainer = styled.div `
         margin-left: 1.5rem;
     }
     @media only screen and (min-width: 1400px) {
-        margin-left: -8.5rem;
+        margin-left: -7.5rem;
     }
 `
 
 const MustHaveText = styled.p `
     font-family: Orbitron;
-    font-size: 15px;
+    font-size: 20px;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
     margin: ${({ theme }) => theme.centerChildStyle.margin}; 
     letter-spacing: 0.5em;
@@ -56,9 +60,10 @@ const MustHaveText = styled.p `
     }
 `
 const CarouselContainer = styled.div `
-    width: 170vw;
+    width: 160vw;
     height: content-wrap;
     align-items: center;
+    margin-top: 70px;
     @media screen and (min-width: 768px) {
         width: 140vw;
         margin-left: 55px;

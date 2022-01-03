@@ -35,7 +35,7 @@ const RoadmapListBox = styled.div `
   const RoadmapListBoxSpan = styled.span `
     font-family: Raleway-ExtraLight;
     padding: 17px 3px 0 7px;
-    font-size: 12px;
+    font-size: 23px;
     color: #707070;
     text-align: left;
     display: flex;
@@ -49,12 +49,12 @@ const RoadmapListBox = styled.div `
     @media screen and (min-width: 768px) {
         padding-left: 50px;
         padding-top: 30px;
-        font-size: 2.5vw;
+        font-size: 4.5vw;
     }
     @media screen and (min-width: 1024px) {
         padding-left: 50px;
         padding-top: 20px;
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 `
 const Circle = styled.img `
@@ -65,6 +65,8 @@ const Circle = styled.img `
     top: 14px;
     @media screen and (min-width: 768px) {
         left: 13px;
+        width: 90px;
+        height: 90px;
     }
     @media screen and (min-width: 1100px) {
         top: 30px;
@@ -83,15 +85,15 @@ const QuarterText = styled.h3 `
     font-size: 18px;
     color: white;
     @media screen and (min-width: 768px) {
-        left: 36px;
+        left: 40px;
+        font-size: 23px;
     }
     @media screen and (min-width: 1100px) {
         top: 35px;
-        left: 40px
+        left: 50px;
     }
     @media screen and (min-width: 1400px) {
-        top: 45px;
-        left: 40px
+        top: 45px;  
     }
 `
     

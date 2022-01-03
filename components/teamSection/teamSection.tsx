@@ -13,13 +13,14 @@ const TeamSectionContainer = styled.div`
     justify-content: space-between;
     @media screen and (min-width: 768px) {
         width: 96vw;
-        top: 47em;
+        top: 60em;
+        left: 60px;
     }
     @media screen and (min-width: 1024px) {
       top: 50em;
   }
   @media only screen and (min-width: 1200px) {
-    top: 60em;
+    top: 70em;
   }
   @media only screen and (min-width: 1400px) {
     top: 80em;
@@ -28,15 +29,15 @@ const TeamSectionContainer = styled.div`
 
 const TheTeamText  = styled.p `
     font-family: Orbitron;
-    font-size: 15px;
+    font-size: 25px;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock};  
     letter-spacing: 0.5em;
     text-align: left;
     color: white;
     position: relative;
-    left: 3rem;
+    left: 1rem;
     @media screen and (min-width: 768px) {
-        margin-left: 40px;
+        margin-left: -15px;
         font-size: 45px;
     }
     @media screen and (min-width: 1400px) {
@@ -46,8 +47,8 @@ const TheTeamText  = styled.p `
 
 const TeamSectionBackground = styled.img `
   position: absolute;
-  width: 25rem;
-  height: 25rem;
+  width: 47rem;
+  height: 75rem;
   left: -5.5rem;
   top: 1rem;
   @media screen and (min-width: 768px) {

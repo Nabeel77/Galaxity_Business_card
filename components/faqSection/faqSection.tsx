@@ -7,15 +7,15 @@ import 'aos/dist/aos.css'
 
 const FAQSectionContainer = styled.div`
     position: relative;
-    top: 66em;
+    top: 76em;
     left: 0px;
     padding: 0 1em 1em 2em;
-    width: 182vw;
+    width: 170vw;
     justify-content: space-between;
     @media screen and (min-width: 768px) {
         width: 160vw;
-        top: 100em;
-        left: 30px;
+        top: 130em;
+        left: 60px;
     }
     @media screen and (min-width: 1024px) {
         top: 90em;
@@ -23,7 +23,7 @@ const FAQSectionContainer = styled.div`
     }
     @media screen and (min-width: 1200px) {
         width: 80vw;
-        top: 95rem;
+        top: 105rem;
         left: 6rem;
     }
     @media screen and (min-width: 1400px) {
@@ -35,7 +35,7 @@ const FAQSectionContainer = styled.div`
 
 const FAQText  = styled.p `
     font-family: Orbitron;
-    font-size: 15px;
+    font-size: 25px;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock};  
     letter-spacing: 0.5em;
     text-align: left;
@@ -45,16 +45,22 @@ const FAQText  = styled.p `
         font-size: 45px;
     }
     @media screen and (min-width: 1100px) {
+        font-size: 45px;
+    }
+    @media screen and (min-width: 1400px) {
         font-size: 55px;
     }
 `
 
 const FAQTextContainer = styled.div `
-    width:  100%;
+    width:  97%;
     height: max-content;
     padding: 1px 1px 0 1px;
     background: linear-gradient(to bottom, #41FFFF,#000000);
     border-radius: 17px;
+    @media screen and (min-width: 768px) {
+        width: 95%;
+    }
     @media screen and (min-width: 1100px) {
         width: 100%;
     }
