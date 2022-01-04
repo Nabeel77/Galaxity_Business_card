@@ -18,22 +18,15 @@ const ThirdSectionConttainer = styled.div`
     flex-direction: column;
     height: max-content;
     padding: 2em 2em;
-    position: relative;
-    top: -7em;
-    left: 3em;
     @media screen and (min-width: 768px) {
         width: 77em;
-        left: 7em;
     }
     @media screen and (min-width: 1024px) {
         width: 96vw;
-        left: 2em;
     }
     @media screen and (min-width: 1100px) {
-        top: -2em;
     }
     @media screen and (min-width: 1400px) {
-        top: 4em;
     }
 `
 
@@ -147,34 +140,28 @@ const TweetImg = styled.img`
 
 const ThirdSection: NextPage = () => {
 
-    const [width, setWidth] = useState(0);
-    const [settings, setSettings] = useState({
+    const [slidesToShow, setSlidesToShow] = useState(1);
+
+    const settings = {
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: slidesToShow,
         slidesToScroll: 1,
         arrows: false,
         className: 'notes-slider',
         autoplay: true,
         autoplaySpeed: 12000,
-    });
+    }
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
-            setWidth(window.innerWidth);
+            if (window.innerWidth >= 1300 ) {
+                setSlidesToShow(3);
+            } else if (window.innerWidth > 768 && window.innerWidth < 1300) {
+                setSlidesToShow(2);
+            }
         }
     }, [])
-
-    console.log(width);
-
-    useEffect(() => {
-
-        setSettings({
-            ...settings,
-            slidesToShow: width >= 1300 ? 3 : width > 768 && width < 1300 ? 2 : 1
-        })
-
-    }, [width, settings])
 
     return (
         <ThirdSectionConttainer >

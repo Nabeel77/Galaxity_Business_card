@@ -12,10 +12,11 @@ import TheTeam from '../components/teamSection/teamSection'
 import FAQ from '../components/faqSection/faqSection'
 import Footer from '../components/footerSection/footerSection'
 
-const Container = styled.section`
+const Container = styled.div`
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  overflow: hidden;
 `
 
 const Home: NextPage = () => {
