@@ -40,7 +40,7 @@ const NeverEndingText = styled.p`
     text-align: left;
     color: white;
     @media screen and (min-width: 768px) {
-        font-size: 45px;
+        font-size: 25px;
     }
     @media screen and (min-width: 1100px) {
         font-size: 40px;
@@ -58,7 +58,7 @@ const TweetsContainer = styled.div`
     border-radius: 17px;
     @media screen and (min-width: 768px) {
         width: 90%;
-        height: 10rem;
+        height: 15vh;
     }
     @media screen and (min-width: 1024px) {
         margin-top: 40px;
@@ -92,11 +92,10 @@ const CarousalContainer = styled.div`
 `
 
 const Tweet = styled.div`
-    width: 10rem;
-    height: 4rem;
+    width: 100%;
+    height: 40%;
     padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 20px;  
+    padding-right: 20px; 
     @media screen and (min-width: 1024px) {
        height: 9rem;
     }
@@ -110,7 +109,6 @@ const Rectangle = styled.div<StyleProps>`
     background-image: url(${props => props.img});
     background-size: cover;
     @media screen and (min-width: 800px) {
-        width: 100%;
     }
 `
 

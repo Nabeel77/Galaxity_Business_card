@@ -46,7 +46,9 @@ const GalabotAndGalaxityTextContainer = styled.div`
     justify-content: space-evenly;
     align-items: center;
     @media screen and (min-width: 768px) {
-       
+        width: 60%;
+        top: 70%;
+        left: 30%;
     }
     @media only screen and (min-width: 1024px) {
      
@@ -75,7 +77,7 @@ const GalaxityText = styled.p `
   height: max-content;
   color: ${({ theme }) => theme.colors.primary};
   @media screen and (min-width: 768px) {
-    font-size: 45px;
+    font-size: 20px;
   }
   @media only screen and (min-width: 1024px) {
     font-size: 40px;
@@ -109,14 +111,9 @@ const IconsContainer = styled.div`
     left: 5%;
     width: max-content;
     height: max-content;
-    @media screen and (min-width: 768px) {
-        top: -18em;
-    }
     @media only screen and (min-width: 1024px) {
-        top: -14em;
     }
     @media only screen and (min-width: 1400px) {
-        top: -18em;
     }
 `
 

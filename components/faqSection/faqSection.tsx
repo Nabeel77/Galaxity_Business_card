@@ -11,7 +11,7 @@ const FAQSectionContainer = styled.div`
     width: 100%;
     justify-content: space-between;
     @media screen and (min-width: 768px) {
-
+        margin-top: 20px;
     }
     @media screen and (min-width: 1024px) {
   
@@ -28,7 +28,6 @@ const FAQSectionContainer = styled.div`
 const FAQText  = styled.p `
     font-family: Orbitron;
     font-size: 25px;
- 
     letter-spacing: 0.5em;
     text-align: left;
     color: white;

@@ -50,7 +50,7 @@ const RoadmapListBox = styled.div `
     @media screen and (min-width: 768px) {
         padding-left: 50px;
         padding-top: 30px;
-        font-size: 4.5vw;
+        font-size: 20px;
     }
     @media screen and (min-width: 1024px) {
         padding-left: 50px;

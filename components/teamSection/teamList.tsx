@@ -13,8 +13,7 @@ const MainContainer = styled.div `
   justify-content: flex-start;
   align-items: center;
   @media screen and (min-width: 768px) {
-    margin-top: -80px;
-    height: 75vh;
+    height: 50%;
    }
   @media screen and (min-width: 1024px) {
 
@@ -35,8 +34,7 @@ const TeamContainer = styled.div `
     justify-content: space-between;
     align-items: center;
     @media screen and (min-width: 786px) {
-     margin-left: 19px;
-     width: 20%;
+     
    }
    @media screen and (min-width: 1024px) {
     margin-left: 13px;
@@ -65,8 +63,8 @@ const TeamItem = styled.div `
   background: linear-gradient(to bottom, #41FFFF,#000000);
   border-radius: 17px;
   @media screen and (min-width: 768px) {
-    width:  65%;
-    height: 29rem;
+    width:  60%;
+    height: 60%;
    }
    @media screen and (min-width: 1024px) {
     width:  80%;

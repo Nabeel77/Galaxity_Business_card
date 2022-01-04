@@ -9,10 +9,8 @@ const FourthSectionContainer = styled.div`
     margin-top: 60px;
     @media screen and (min-width: 1024px) {
         top: -2rem;
-        width: 120vw;
     }
     @media screen and (min-width: 1100px) {
-        width: 100vw;
         top: 10em;
     }
     @media screen and (min-width: 1400px) {
@@ -26,14 +24,10 @@ const BackgroundImage = styled.img `
   height: 50%;
   left: -94px;
   @media screen and (min-width: 768px) {
-    width: 50rem;
-    height: 45rem;
-    left: -9rem;
+    left: -170px;
   }
   @media screen and (min-width: 768px) {
-    width: 70rem;
-    height: 60rem;
-    left: -17rem;
+   
   }
 `
 const MintedNftsBox = styled.div `
@@ -46,10 +40,10 @@ const MintedNftsBox = styled.div `
     background: linear-gradient(to left, #41FFFF,#000000);
     border-radius: 17px;
     @media screen and (min-width: 768px) {
-        width: 55%;
-        height: 15rem;
-        left: 17.5rem;
-        top: 24rem;
+        width: 50%;
+        height: 29.7%;
+        left: 30%;
+        top: 38%;
     }
     @media only screen and (min-width: 1024px) {
         width: 73%;
@@ -80,8 +74,8 @@ const MintedNftsBox = styled.div `
     height: auto;
     color: white;
     @media screen and (min-width: 768px) {
-        padding: 30px 0 0 100px;
-        font-size: 33px;
+        padding: 50px 0;
+        font-size: 23px;
         height: 14.8rem;
     }
     @media only screen and (min-width: 1024px) {

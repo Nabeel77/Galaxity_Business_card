@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 const TeamSectionContainer = styled.div`
     position: relative;
     width: 100%;
+    padding: 0 1em 1em 2em;
     height: max-content;
     justify-content: space-between;
 
@@ -33,12 +34,12 @@ const TeamSectionBackground = styled.img `
   position: absolute;
   width: 100%;
   height: 100%;
+  object-fit: contain;
   left: -40px;
   top: 10px;
   @media screen and (min-width: 768px) {
-    width: 60rem;
-    height: 60rem;
-    left: -9rem;
+    left: -20px;
+    height: 85vh;
   }
   @media screen and (min-width: 1200px) {
     width: 70rem;
@@ -53,6 +54,9 @@ const TeamCardsContainer = styled.div `
   width: 98%;
   height: max-content;
   margin-top: 30px;
+  @media screen and (min-width: 768px) {
+    margin-top: 110px;
+  }
   @media screen and (min-width: 1024px) {
     margin-left: 0px;
     margin-top: 110px;

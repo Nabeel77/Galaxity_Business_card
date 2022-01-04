@@ -35,11 +35,8 @@ const QuestionText = styled.p `
   font-weight: bold;
   height: max-content;
   color: ${({ theme }) => theme.colors.primary};
-  @media screen and (min-width: 540px) {
-    font-size: 20px;
-  }
   @media screen and (min-width: 768px) {
-    font-size: 30px;
+    font-size: 20px;
   }
   @media screen and (min-width: 1024px) {
     font-size: 25px;
@@ -53,11 +50,8 @@ const AnswerText = styled.p `
   overflow-wrap: normal;
   height: max-content;
   color: white;
-  @media screen and (min-width: 540px) {
-    font-size: 20px;
-  }
   @media screen and (min-width: 768px) {
-    font-size: 30px;
+    font-size: 20px;
   }
   @media screen and (min-width: 1024px) {
     font-size: 25px;
