@@ -12,22 +12,12 @@ interface StyleProps {
 }
 
 const ThirdSectionConttainer = styled.div`
-    width: 36rem;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: max-content;
     padding: 2em 2em;
-    @media screen and (min-width: 768px) {
-        width: 77em;
-    }
-    @media screen and (min-width: 1024px) {
-        width: 96vw;
-    }
-    @media screen and (min-width: 1100px) {
-    }
-    @media screen and (min-width: 1400px) {
-    }
 `
 
 const NeverEndingTexttContainer = styled.div`
@@ -35,17 +25,17 @@ const NeverEndingTexttContainer = styled.div`
     justify-content: flex-start;
     width: content-wrap;
     height: content-wrap;
-    @media screen and (min-width: 1400px) {
-        margin-left: 40px;
+    margin-left: 5px;
+    @media screen and (min-width: 1024px) {
+        margin-left: 60px;
     }
 
 `
-
 const NeverEndingText = styled.p`
     font-family: Orbitron;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
     margin: ${({ theme }) => theme.centerChildStyle.margin}; 
-    font-size: 20px;
+    font-size: 12px;
     letter-spacing: 0.6em;
     text-align: left;
     color: white;
@@ -58,13 +48,11 @@ const NeverEndingText = styled.p`
 `
 
 const TweetsContainer = styled.div`
-    object-fit: contain;
     width: 100%;
-    position: relative;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
-    left: 15px;
-    top: 14px; 
-    height: 10rem;
+    margin-left: 5px;
+    margin-top: 14px; 
+    height: 5rem;
     padding: 1px 1px 1px 0;
     background: linear-gradient(to left, #41FFFF,#000000);
     border-radius: 17px;
@@ -75,7 +63,7 @@ const TweetsContainer = styled.div`
     @media screen and (min-width: 1024px) {
         margin-top: 40px;
         height: 14rem;
-        left: 5px;
+        margin-left: 50px;
     }
     @media screen and (min-width: 1400px) {
         margin-left: 70px;
@@ -83,7 +71,6 @@ const TweetsContainer = styled.div`
   `
 
 const TweetsContainerSpan = styled.span`
-    object-fit: contain;
     font-family: Orbitron;
     padding: 17px 3px 5px 7px;
     font-size: 15px;
@@ -98,7 +85,7 @@ const TweetsContainerSpan = styled.span`
 const CarousalContainer = styled.div`
     width: 98%;
     height: 100%;
-    margin-top: -4px;
+    margin-top: -10px;
     @media screen and (min-width: 1024px) {
         margin-top: 20px;
     }
@@ -106,7 +93,7 @@ const CarousalContainer = styled.div`
 
 const Tweet = styled.div`
     width: 10rem;
-    height: 8rem;
+    height: 4rem;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;  

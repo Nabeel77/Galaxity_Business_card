@@ -13,10 +13,10 @@ import FAQ from '../components/faqSection/faqSection'
 import Footer from '../components/footerSection/footerSection'
 
 const Container = styled.div`
-  width: 100%;
+  width: 99%;
   height: 100%;
   display:block;
-  overflow-x: hidden;
+
 `
 
 const Home: NextPage = () => {

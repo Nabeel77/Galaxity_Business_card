@@ -5,32 +5,15 @@ import 'aos/dist/aos.css'
 
 const TeamSectionContainer = styled.div`
     position: relative;
-    top: 25em;
-    left:3em;
-    padding: 2em 2em;
-    width: 20rem;
+    width: 100%;
     height: max-content;
     justify-content: space-between;
-    @media screen and (min-width: 768px) {
-        width: 96vw;
-        top: 60em;
-        left: 60px;
-    }
-    @media screen and (min-width: 1024px) {
-      width: 90vw;
-      top: 50em;
-  }
-  @media only screen and (min-width: 1200px) {
-    top: 70em;
-  }
-  @media only screen and (min-width: 1400px) {
-    top: 80em;
-  }
+
 `
 
 const TheTeamText  = styled.p `
     font-family: Orbitron;
-    font-size: 25px;
+    font-size: 18px;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock};  
     letter-spacing: 0.5em;
     text-align: left;
@@ -48,10 +31,10 @@ const TheTeamText  = styled.p `
 
 const TeamSectionBackground = styled.img `
   position: absolute;
-  width: 40rem;
-  height: 75rem;
-  left: -5.5rem;
-  top: 1rem;
+  width: 100%;
+  height: 100%;
+  left: -40px;
+  top: 10px;
   @media screen and (min-width: 768px) {
     width: 60rem;
     height: 60rem;
@@ -67,19 +50,12 @@ const TeamSectionBackground = styled.img `
 `
 
 const TeamCardsContainer = styled.div `
-  width: 100%;
-  height: 25rem;
-  padding: 2rem 1rem;
-  position: absolute;
-  top: 7rem;
-  @media screen and (min-width: 768px) {
-    top: 15rem;
-  }
+  width: 98%;
+  height: max-content;
+  margin-top: 30px;
   @media screen and (min-width: 1024px) {
-    top: 15rem;
-  }
-  @media screen and (min-width: 1400px) {
-    left: -6rem;
+    margin-left: 0px;
+    margin-top: 110px;
   }
 
   

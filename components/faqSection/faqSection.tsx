@@ -6,29 +6,21 @@ import FaqList from './faqList'
 import 'aos/dist/aos.css'
 
 const FAQSectionContainer = styled.div`
-    position: relative;
-    top: 80em;
-    left: 10px;
+    margin-top: 120px;
     padding: 0 1em 1em 2em;
-    width: 170vw;
+    width: 100%;
     justify-content: space-between;
     @media screen and (min-width: 768px) {
-        width: 160vw;
-        top: 130em;
-        left: 60px;
+
     }
     @media screen and (min-width: 1024px) {
-        top: 90em;
-        width: 125vw;
+  
     }
     @media screen and (min-width: 1200px) {
-        width: 80vw;
-        top: 105rem;
-        left: 6rem;
+     
     }
     @media screen and (min-width: 1400px) {
-        top: 135rem;
-        left: 5rem;
+       
       }
 
 `
@@ -36,10 +28,9 @@ const FAQSectionContainer = styled.div`
 const FAQText  = styled.p `
     font-family: Orbitron;
     font-size: 25px;
-    display: ${({ theme }) => theme.centerChildStyle.inlineBlock};  
+ 
     letter-spacing: 0.5em;
     text-align: left;
-    margin-left: 2em;
     color: white;
     @media screen and (min-width: 768px) {
         margin-left: 0px;
@@ -54,10 +45,10 @@ const FAQText  = styled.p `
 `
 
 const FAQTextContainer = styled.div `
-    width:  35rem;
+    width:  100%;
     height: max-content;
     padding: 1px 1px 0 1px;
-    margin-left: 2.4em;
+    
     background: linear-gradient(to bottom, #41FFFF,#000000);
     border-radius: 17px;
     @media screen and (min-width: 768px) {

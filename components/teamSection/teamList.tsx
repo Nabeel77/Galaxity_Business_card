@@ -6,30 +6,25 @@ import { boxGradientBorderBackgroundSpanVertical } from '../globalStyles';
 
 const MainContainer = styled.div `
   display: flex;
-  width: 37rem;
-  height: 100vh;
+  width: 100%;
+  height: max-content;
   margin-top: 20px;
-  margin-left: -35px;
   flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
   @media screen and (min-width: 768px) {
     margin-top: -80px;
-    margin-left: 2px;
     height: 75vh;
    }
   @media screen and (min-width: 1024px) {
-    width: 120vw;
 
   }
   @media screen and (min-width: 1200px) {
-    width: 85vw;
-    margin-top: -30px;
-    margin-left: 80px;
+    margin-left: 40px;
   }
   @media screen and (min-width: 1400px) {
     justify-content: flex-start;
-    margin-top: -80px;
-    margin-left: 280px;
+    margin-top: -100px;
   }
 `
 
@@ -52,7 +47,7 @@ const TeamContainer = styled.div `
    }
    @media screen and (min-width: 1400px) {
     margin-left: -110px;
-    width: 31%;
+    width: 30%;
     height: 65%;
     margin-top: 15rem;
    }
@@ -65,7 +60,7 @@ const LibauGalaBot = styled.img `
 
 const TeamItem = styled.div `
   width:  80%;
-  height: 18rem;
+  height: 80%;
   padding: 1px 1px 0 1px;
   background: linear-gradient(to bottom, #41FFFF,#000000);
   border-radius: 17px;
@@ -90,7 +85,7 @@ const Name = styled.p `
   font-family: Raleway-Regular;
   margin-top: 20px;
   color: white;
-  font-size: 25px;
+  font-size: 12px;
   @media screen and (min-width: 768px) {
     font-size: 35px;
    }
@@ -100,7 +95,18 @@ const Name = styled.p `
    }
 `
 
-const TeamItemBackground = boxGradientBorderBackgroundSpanVertical
+const TeamItemBackground = styled.div `
+    font-family: Orbitron;
+    padding: 17px 0 0 0px;
+    font-size: 15px;
+    color: #707070;
+    text-align: left;
+    background: #000;
+    display: block;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+`
 
 const TeamList: NextPage = () => {
 

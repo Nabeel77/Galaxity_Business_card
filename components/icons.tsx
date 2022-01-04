@@ -21,11 +21,14 @@ const Discord = styled.a`
     width: 100%;
     height: 40%;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     cursor: pointer;
     &:hover {
         color: #9680E7;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
     }
 `
 
@@ -33,11 +36,14 @@ const Twitter = styled.a`
     width: 100%;
     height: 40%;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     cursor: pointer;
     &:hover {
         color: #26A4F2;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
     }
 `
 

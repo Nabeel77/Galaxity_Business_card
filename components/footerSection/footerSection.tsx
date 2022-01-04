@@ -4,38 +4,32 @@ import Icons from '../icons'
 import 'aos/dist/aos.css'
 
 const FooterContainer = styled.div`
+    width: 100%;
+    height: 30vh;
     position: relative;
-    top: 75em;
-    left:0;
-    bottom: 0;
-    width: 145vw;
-    height: 50vh;
     @media screen and (min-width: 768px) {
-        top: 125em;
+  
     }
     @media only screen and (min-width: 1024px) {
-        width: 96vw;
-        top: 85em;
+   
     }
     @media only screen and (min-width: 1100px) {
-        width: 96vw;
-        top: 105em;
+   
     }
     @media only screen and (min-width: 1400px) {
-        width: 96vw;
-        top: 130em;
+       
     }
 `
 
 const FooterBackground = styled.img `
-  width: 110%;
+  width: 100%;
   height: 100%;
+  position: absolute;
   @media only screen and (min-width: 768px) {
-    height: 130%;
+
   }  
   @media only screen and (min-width: 1024px) {
-    width: 100%;
-    height: 160%;
+
   }   
   @media only screen and (min-width: 1100px) {
     height: 230%;
@@ -43,34 +37,27 @@ const FooterBackground = styled.img `
 `
 
 const GalabotAndGalaxityTextContainer = styled.div`
-    position: relative;
-    top: -7em;
-    right: -12.5em;
+    position: absolute;
+    top: 70%;
+    left: 20%;
     display: flex;
-    width: 80vw;
-    height: 15vh;
-    justify-content: space-around;
+    width: 80%;
+    height: max-content;
+    justify-content: space-evenly;
+    align-items: center;
     @media screen and (min-width: 768px) {
-        width: 80vw;
-        top: -11em;
-        right: -18.5em;
+       
     }
     @media only screen and (min-width: 1024px) {
-        width: 55vw;
-        top: -9em;
-        right: -24.5em;
+     
     }
 
     @media only screen and (min-width: 1200px) {
-        width: 55vw;
-        top: -8em;
-        right: -19.5em;
+       
     }
 
     @media only screen and (min-width: 1400px) {
-        width: 55vw;
-        top: -12em;
-        right: -40em;
+      
     }
 `
 const GalaxityTextContainer = styled.div`
@@ -82,7 +69,7 @@ const GalaxityTextContainer = styled.div`
 
 const GalaxityText = styled.p `
   font-family: Orbitron;
-  font-size: 20px;
+  font-size: 10px;
   letter-spacing: 1em;
   width: max-content;
   height: max-content;
@@ -98,26 +85,28 @@ const GalaxityText = styled.p `
  }
 `
 const GalaImageContainer = styled.div`
-    height: 100%;
-    width: 50%;
+    height: 60%;
+    width: 20%;
+    @media screen and (min-width: 1080px) {
+        height: 50%;
+        width: 15%;
+    }
 `
 
 const GalaImage = styled.img `
     float: right;
     width: 100%;
     height: 100%;
-    @media screen and (min-width: 768px) {
-        width: 70%;
-    }
+   
     @media screen and (min-width: 1024px) {
-        width: 40%;
+       
     }
 `
 
 const IconsContainer = styled.div`
-    position: relative;
-    top: -12em;
-    left: 2em;
+    position: absolute;
+    top: 70%;
+    left: 5%;
     width: max-content;
     height: max-content;
     @media screen and (min-width: 768px) {

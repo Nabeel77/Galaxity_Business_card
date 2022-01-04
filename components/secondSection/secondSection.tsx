@@ -25,11 +25,9 @@ const SecondSectionContainer = styled.div `
 `
 
 const SecondSectionChildContainer = styled.div`
-
     width: 100%;
     height: max-content;
     margin-left: 20px;
-
 `
 
 const TextContainer = styled.div `
@@ -44,9 +42,9 @@ const TextContainer = styled.div `
 
 const MustHaveText = styled.p `
     font-family: Orbitron;
-    font-size: 10px;
+    font-size: 11px;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
-    margin: ${({ theme }) => theme.centerChildStyle.margin}; 
+    margin-bottom: 10px; 
     letter-spacing: 0.5em;
     text-align: left;
     color: ${({ theme }) => theme.colors.primary};

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const RoadmapContentContainer = styled.div`
     display: flex; 
     flex-direction: column;
-    width: 107%;
+    width: 100%;
     @media screen and (min-width: 1024px) {
         flex-direction: row;
     }
@@ -19,12 +19,13 @@ const RoadmapListBoxContainer  = styled.div`
 const RoadmapListBox = styled.div `
     margin-top: 25px;
     width: 100%;
-    height: 9vh;
+    height: max-content;
     padding: 1px 1px 1px 0;
     background: linear-gradient(to left, #41FFFF,#000000);
-    border-radius: 17px;
+    border-radius: 15px;
     @media screen and (min-width: 1100px) {
         margin-top: 40px;
+        width: 90%;
     }
     @media screen and (min-width: 1400px) {
         margin-top: 55px;
@@ -34,17 +35,17 @@ const RoadmapListBox = styled.div `
 
   const RoadmapListBoxSpan = styled.span `
     font-family: Raleway-ExtraLight;
-    padding: 17px 3px 0 7px;
-    font-size: 20px;
+    padding: 17px 3px 17px 7px;
+    font-size: 12px;
     color: #707070;
     text-align: left;
     display: flex;
     align-items: center;
     background: #000;
     display: block;
-    border-radius: 17px;
+    border-radius: 15px;
     width: 100%;
-    height: 8.7vh;
+    height: auto;
     color: white;
     @media screen and (min-width: 768px) {
         padding-left: 50px;
@@ -59,8 +60,8 @@ const RoadmapListBox = styled.div `
 `
 const Circle = styled.img `
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     left: -11px;
     top: 14px;
     @media screen and (min-width: 768px) {
@@ -70,7 +71,7 @@ const Circle = styled.img `
     }
     @media screen and (min-width: 1100px) {
         top: 30px;
-        left: 20px
+        left: 11px
     }
     @media screen and (min-width: 1400px) {
         top: 40px;
@@ -79,10 +80,10 @@ const Circle = styled.img `
 `
 const QuarterText = styled.h3 `
     position: absolute;
-    left: 13px;
+    left: 9px;
     top: 20px;
     font-family: Orbitron;
-    font-size: 18px;
+    font-size: 14px;
     color: white;
     @media screen and (min-width: 768px) {
         left: 40px;
@@ -90,7 +91,7 @@ const QuarterText = styled.h3 `
     }
     @media screen and (min-width: 1100px) {
         top: 35px;
-        left: 50px;
+        left: 41px;
     }
     @media screen and (min-width: 1400px) {
         top: 45px;  

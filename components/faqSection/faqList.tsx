@@ -10,6 +10,7 @@ import styled from 'styled-components'
  * */
 
 const FAQsParentContainer = styled.div `
+
     width: 70%;
     display: flex; 
     flex-direction: column;
@@ -30,7 +31,7 @@ const SingleFAQContainer = styled.div `
 const QuestionText = styled.p `
   word-break: break-all;
   font-family: Raleway-Regular;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: bold;
   height: max-content;
   color: ${({ theme }) => theme.colors.primary};
@@ -48,7 +49,7 @@ const QuestionText = styled.p `
 const AnswerText = styled.p `
   font-family: Raleway-Regular;
   margin-top: -1px;
-  font-size: 20px;
+  font-size: 12px;
   overflow-wrap: normal;
   height: max-content;
   color: white;

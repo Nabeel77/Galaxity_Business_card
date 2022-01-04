@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import 'aos/dist/aos.css'
 
 const FourthSectionContainer = styled.div`
-    width: 34rem;
+    width: 100%;
+    height: max-content;
     position: relative;
-    top: -5rem;
-    bottom: 0px;
+    margin-top: 60px;
     @media screen and (min-width: 1024px) {
         top: -2rem;
         width: 120vw;
@@ -21,10 +21,10 @@ const FourthSectionContainer = styled.div`
 `
 
 const BackgroundImage = styled.img `
-  position: absolute;
-  width: 25rem;
-  height: 25rem;
-  left: -5.5rem;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  left: -94px;
   @media screen and (min-width: 768px) {
     width: 50rem;
     height: 45rem;
@@ -37,10 +37,10 @@ const BackgroundImage = styled.img `
   }
 `
 const MintedNftsBox = styled.div `
-    width: 75%;
+    width: 60%;
     position: absolute;
-    left: 8rem;
-    top: 8rem;
+    left: 8em;
+    top: 8em;
     height: auto;
     padding: 1px 1px 1px 0;
     background: linear-gradient(to left, #41FFFF,#000000);
@@ -68,8 +68,8 @@ const MintedNftsBox = styled.div `
 
   const MintedNftsBoxSpan = styled.span `
     font-family: Orbitron;
-    padding: 15px 3px 0 7px;
-    font-size: 25px;
+    padding: 15px 3px 15px 7px;
+    font-size: 15px;
     color: #707070;
     text-align: left;
     letter-spacing: 0.6em;
@@ -77,7 +77,7 @@ const MintedNftsBox = styled.div `
     display: block;
     border-radius: 17px;
     width: 100%;
-    height: 11.8rem;
+    height: auto;
     color: white;
     @media screen and (min-width: 768px) {
         padding: 30px 0 0 100px;

@@ -6,43 +6,34 @@ import { Q4List, Q1List } from '../data/roadmapListContent';
 import 'aos/dist/aos.css'
 
 const RoadmapContiner = styled.div `
-    position: relative;
-    top: 25em;
-    left: 3em;
     padding: 2em 1em;
-    width: 36rem;
-    height: auto;
+    width: 100%;
+    height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     @media screen and (min-width: 768px) {
-        width: 160vw;
-        left: 65px;
-        top: 60em;
+   
     }
     @media only screen and (min-width: 1024px) {
-        top: 50em;
-        width: 120vw;
+        margin-top: 150px;
     }
     @media only screen and (min-width: 1200px) {
-        width: 93vw;
-        left: 3em;
-        top: 70em;
+  
     }
     @media only screen and (min-width: 1400px) {
-        width: 93vw;
-        left: 3em;
-        top: 80em;
+        margin-top: 300px;
     }
 `
 
 const RoadmapText  = styled.p `
     font-family: Orbitron;
-    font-size: 25px;
+    font-size: 18px;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock};  
     letter-spacing: 0.5em;
     text-align: left;
     color: white;
+    margin-left: 10px;
     @media screen and (min-width: 768px) {
         margin-left: 25px;
         font-size: 45px;
