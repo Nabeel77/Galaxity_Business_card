@@ -5,9 +5,10 @@ import { boxGradientBorderBackgroundDivVertical, boxGradientBorderBackgroundSpan
 
   const NumberingText = styled.h2`
   font-family: Orbitron;
-  font-size: 27px;
+  font-size: 13px;
   text-align: justify;
   text-justify: inter-word;
+  margin: 0 auto;
   color: ${({ theme }) => theme.colors.primary};
   @media screen and (min-width: 1100px) {
     font-size: 20px;
@@ -17,8 +18,8 @@ import { boxGradientBorderBackgroundDivVertical, boxGradientBorderBackgroundSpan
 const MainContainer = styled.div `
   display: flex;
   flex-wrap: wrap;
-  width: 107%;
-  height: fit-content;
+  width: 100%;
+  height: max-content;
   @media screen and (min-width: 786px) {
     flex-direction: row;
     justify-content: space-between;
@@ -32,34 +33,38 @@ const MainContainer = styled.div `
 const ReasonsContainer = styled.div `
   width: 50%;
   @media screen and (min-width: 786px) {
-  margin-left: 19px;
   width: 20%;
 }
 @media screen and (min-width: 1024px) {
   width: 18%;
+  margin-left: 19px;
 }
 `
 
 
 const ReasonItem = styled.div `
+  margin-top: 10px;
   width:  80%;
-  height: 15em;
+  height: 10em;
   padding: 1px 1px 0 1px;
   background: linear-gradient(to bottom, #41FFFF,#000000);
   border-radius: 17px;
+  @media screen and (min-width: 786px) {
+    height: 15em;
+  }
 `;
 
-const ReasonText = styled.div `
+const ReasonText = styled.span `
   font-family: Orbitron;
-  padding: 17px 3px 0 7px;
-  font-size: 23px;
+  padding: 25px 3px 0 10px;
+  font-size: 12px;
   color: white;
   text-align: left;
   background: #000;
   display: block;
   border-radius: 17px;
   width: 100%;
-  height: 100%;
+  height: 101%;
   @media screen and (min-width: 1024px) {
     font-size: 15px;
   }

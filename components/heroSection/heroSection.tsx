@@ -23,14 +23,12 @@ const HeroImageContainer = styled.div`
   position: relative;
   flex:1;
   height: 100%;
-  z-index: 999;
 `
 
 const HeroTextAndIconsContaner = styled.div`
   position: relative;  
   flex:1;
   height: 100%;
-  z-index: 999;
 `
 
 const HeroImage = styled.img `
@@ -62,10 +60,7 @@ const GalaxityTextContainer = styled.div `
     top: 38%
   }
   @media only screen and (min-width: 1024px) {
-    top: 50%
-  }
-  @media only screen and (min-width: 1400px) {
-    top: 47%
+    top: 45%
   }
 `
 
@@ -92,7 +87,7 @@ const GalaxityText = styled.p `
 const NftText = styled.p `
   font-family: Raleway-ExtraLight;
   font-size: 7px;
-  margin-top: 5px;
+  margin-top: 2px;
   letter-spacing: 0.4em;
   width: max-content;
   height: max-content;

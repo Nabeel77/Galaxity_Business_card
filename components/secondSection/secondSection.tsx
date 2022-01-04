@@ -4,84 +4,80 @@ import Carousel from './reasons'
 import 'aos/dist/aos.css'
 
 const SecondSectionContainer = styled.div `
-    width: 30rem;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     text-align: center;
     flex-direction: column;
     height: max-content;
-    padding: 2em 3em;
+    padding: 2em 1em;
     @media screen and (min-width: 768px) {
-        width: 100vw;
+       
     }
     @media screen and (min-width: 1024px) {
-        width: 100vw;
+        margin-top: 150px;
+        padding: 2em 3em;
     }
     @media screen and (min-width: 1400px) {
-        width: 80vw;
+       margin-top: 200px;
     }
 `
+
+const SecondSectionChildContainer = styled.div`
+
+    width: 100%;
+    height: max-content;
+    margin-left: 20px;
+
+`
+
 const TextContainer = styled.div `
     display: flex;
-    flex-direction: column;
-    width: 140%;
+    width: 100%;
     align-items: center;
-    @media screen and (min-width: 768px) {
-       margin-left: 3.5rem;
-    }
+    text-align: left;
     @media screen and (min-width: 1024px) {
-        width: 110vw;
-        margin-left: 6.5rem;
-    }
-    @media screen and (min-width: 1100px) {
-        width: 90vw;
-        margin-left: 1.5rem;
-    }
-    @media only screen and (min-width: 1400px) {
-        margin-left: -7.5rem;
+        margin-left: 30px;
     }
 `
 
 const MustHaveText = styled.p `
     font-family: Orbitron;
-    font-size: 20px;
+    font-size: 10px;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
     margin: ${({ theme }) => theme.centerChildStyle.margin}; 
     letter-spacing: 0.5em;
     text-align: left;
     color: ${({ theme }) => theme.colors.primary};
     @media screen and (min-width: 768px) {
+        font-size: 20px;
+    }
+    @media screen and (min-width: 1024px) {
         font-size: 30px;
     }
 `
 const CarouselContainer = styled.div `
-    width: 34rem;
+    width: 100%;
     height: content-wrap;
     align-items: center;
-    margin-top: 70px;
-    @media screen and (min-width: 768px) {
-        width: 140vw;
-        margin-left: 55px;
-    }   
+    margin-top: 10px; 
     @media screen and (min-width: 1024px) {
-        width: 100vw;
-        margin-left: 85px;
-    }  
-    @media screen and (min-width: 1200px) {
-        width: 85vw;
-        margin-left: 15px;
+        margin-left: 10px;
     }  
 `
 
 const SecondSection: NextPage = () => {
     return (
         <SecondSectionContainer>
+            <SecondSectionChildContainer>
             <TextContainer>
                 <MustHaveText> GalaBot is your must-have Solana NFT toolset </MustHaveText>
             </TextContainer>
             <CarouselContainer>
                 <Carousel/>
             </CarouselContainer>
+            </SecondSectionChildContainer>
         </SecondSectionContainer>
       
     )
