@@ -44,6 +44,7 @@ const TeamSectionBackground = styled.img `
   object-fit: contain;
   left: -40px;
   top: 10px;
+  z-index: 0;
   @media screen and (min-width: 768px) {
     left: -20px;
     height: 85vh;
@@ -58,18 +59,21 @@ const TeamSectionBackground = styled.img `
 `
 
 const TeamCardsContainer = styled.div `
+  position: relative;
   width: 98%;
   height: max-content;
-  margin-top: 30px;
+  top: 30px;
+  z-index: 999;
   @media screen and (min-width: 768px) {
-    margin-top: 110px;
+    top: 110px;
   }
   @media screen and (min-width: 1024px) {
-    margin-left: 0px;
-    margin-top: 200px;
+   left: 0px;
+   top: 200px;
   }
   @media screen and (min-width: 1400px) {
-    margin-top: 110px;
+    padding: 0 90px 0 90px;
+    top: 110px;
   }
 
   

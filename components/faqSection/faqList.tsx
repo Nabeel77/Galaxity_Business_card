@@ -30,8 +30,8 @@ const SingleFAQContainer = styled.div `
 
 const QuestionText = styled.p `
   word-break: break-all;
-  font-family: Raleway-Regular;
-  font-size: 12px;
+  font-family: Raleway-regular;
+  font-size: 14px;
   font-weight: bold;
   height: max-content;
   color: ${({ theme }) => theme.colors.primary};
@@ -39,7 +39,9 @@ const QuestionText = styled.p `
     font-size: 20px;
   }
   @media screen and (min-width: 1024px) {
-    font-size: 25px;
+    font-family: Raleway-bold;
+    font-weight: 400;
+    font-size: 20px;
   }
 `
 
@@ -54,7 +56,7 @@ const AnswerText = styled.p `
     font-size: 20px;
   }
   @media screen and (min-width: 1024px) {
-    font-size: 25px;
+    font-size: 16px;
   }
 `
 

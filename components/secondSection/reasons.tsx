@@ -55,11 +55,12 @@ const ReasonItem = styled.div `
 `;
 
 const ReasonText = styled.span `
-  font-family: Orbitron;
+  font-family: Raleway-Regular;
   padding: 25px 3px 0 10px;
   font-size: 12px;
   color: white;
   text-align: left;
+  letter-spacing: 2px;
   background: #000;
   display: block;
   border-radius: 17px;

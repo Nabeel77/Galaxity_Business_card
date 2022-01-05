@@ -1,6 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import type { AppProps } from 'next/app'
 import './styles.css'
+import "../global-styles.css";
 import Head from 'next/head'
 
 const GlobalStyle = createGlobalStyle`
@@ -20,8 +21,6 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
-
-  
   
 `
 

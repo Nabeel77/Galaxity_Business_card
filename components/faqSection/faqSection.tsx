@@ -14,15 +14,15 @@ const FAQSectionContainer = styled.div`
         margin-top: 20px;
     }
     @media screen and (min-width: 1024px) {
-        margin-top: 100px;
+        margin-top: 200px;
     }
     @media screen and (min-width: 1200px) {
         padding: 0 100px 0 100px;
-        margin-top: 200px;
+        margin-top: 350px;
     }
     @media screen and (min-width: 1400px) {
         padding: 0 140px 0 140px;
-        margin-top: 250px;
+        margin-top: 450px;
       }
 
 `
