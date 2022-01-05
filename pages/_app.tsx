@@ -13,6 +13,8 @@ const GlobalStyle = createGlobalStyle`
     background-color: #000000;
   }
 
+  font-family: 'Orbitron', 'Raleway', sans-serif;
+
   a {
     color: inherit;
     text-decoration: none;
@@ -39,10 +41,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
           <meta name="viewport" content="width=device-width, user-scalable=no"/>
-          <link rel="preload" href="/fonts/Orbitron-Regular" as="font" type="font/Orbitron-Regular" crossOrigin="anonymous" />
-          <link rel="preload" href="/fonts/Raleway-Bold" as="font" type="font/Raleway-Bold" crossOrigin="anonymous" />
-          <link rel="preload" href="/fonts/Raleway-ExtraLight" as="font" type="font/Raleway-ExtraLight" crossOrigin="anonymous" />
-          <link rel="preload" href="/fonts/Raleway-Regular" as="font" type="font/Raleway-Regular" crossOrigin="anonymous" />
       </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
