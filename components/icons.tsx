@@ -28,7 +28,7 @@ const Discord = styled.a`
         color: #9680E7;
     }
     @media screen and (min-width: 768px) {
-        font-size: 30px;
+        font-size: 40px;
     }
 `
 
@@ -43,7 +43,7 @@ const Twitter = styled.a`
         color: #26A4F2;
     }
     @media screen and (min-width: 768px) {
-        font-size: 30px;
+        font-size: 40px;
     }
 `
 

@@ -7,6 +7,7 @@ const HeroContainer = styled.div`
   height: 40vh;
   display: flex;
   justify-content: flex-start;
+  position: relative;
   align-items: center;
   @media screen and (min-width: 540px) {
   }
@@ -22,89 +23,86 @@ const HeroContainer = styled.div`
 const HeroImageContainer = styled.div`
   position: relative;
   flex:1;
+  flex-basis: 50%;
+  max-width: 50%;
   height: 100%;
 `
 
 const HeroTextAndIconsContaner = styled.div`
   position: relative;  
   flex:1;
+  flex-basis: 50%;
+  max-width: 50%;
   height: 100%;
 `
 
 const HeroImage = styled.img `
-  position: absolute;
+  width: 125%;
+  margin-left: -10px;
   object-fit: contain;
-  left: -45px;
-  height: 100%;
-  @media screen and (min-width: 768px) {
-    left: -10px;
-  }
-  @media screen and (min-width: 1024px) {
-    left: -5px;
-    height: 125%;
-  }
-  @media screen and (min-width: 1400px) {
-    left: -30px;
+  @media only screen and (min-width: 1024px) {
+    width: 105%;
   }
 `
 
 const GalaxityTextContainer = styled.div `
-  position: relative;
   width: max-content;
-  padding: 1px 1px 1px 0;
   display: flex;
   flex-direction: column;
   height: max-content;
-  top: 30%;
+  margin-top: 45%;
+  margin-left: -2vw;
   @media only screen and (min-width: 768px) {
-    top: 38%
+    
   }
   @media only screen and (min-width: 1024px) {
-    top: 45%
+    margin-top: 40%;
+    margin-left: -8vw;
+  }
+  @media only screen and (min-width: 1400px) {
+    margin-top: 38%;
+    margin-left: -9vw;
   }
 `
 
 const GalaxityText = styled.p `
   font-family: Orbitron;
-  font-size: 12px;
-  letter-spacing: 1.34em;
+  font-size: 3vw;
+  letter-spacing: 1em;
   width: max-content;
   height: max-content;
-  color: ${({ theme }) => theme.colors.primary};
+  color: white;
   @media screen and (min-width: 768px) {
-    font-size: 25px;
+    letter-spacing: 1.34em;
   }
   @media only screen and (min-width: 1024px) {
-    font-size: 40px;
+    font-size: 2.6vw;
   }
   @media only screen and (min-width: 1200px) {
-    font-size: 35px;
   }
   @media only screen and (min-width: 1500px) {
-    font-size: 50px;
   }
 `
 const NftText = styled.p `
   font-family: Raleway-ExtraLight;
-  font-size: 7px;
-  margin-top: 2px;
+  font-size: 1.5vw;
+  margin-top: -3px;
   letter-spacing: 0.4em;
   width: max-content;
   height: max-content;
   color: white;
   @media only screen and (min-width: 768px) {
-    font-size: 13px;
+
     margin-top: -12px;
   }
   @media only screen and (min-width: 1024px) {
-    top: -30px;
-    font-size: 20px;
-  }
-  @media only screen and (min-width: 1200px) {
-    font-size: 15px;
+    letter-spacing: 0.7em;
+    margin-top: -20px;
+    font-size: 1.1vw;
   }
   @media only screen and (min-width: 1500px) {
-    font-size: 20px;
+
+   
   }
 `
 const IconsContainer = styled.div`
@@ -113,6 +111,10 @@ const IconsContainer = styled.div`
     right: 15px;
     width: max-content;
     height: max-content;
+    @media only screen and (min-width: 1024px) {
+      top: 55px;
+      right: 55px;
+    }
 `
 
 const Hero: NextPage = () => {
