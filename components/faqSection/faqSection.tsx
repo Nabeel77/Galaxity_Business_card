@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'
 const FAQSectionContainer = styled.div`
     margin-top: 120px;
     width: 100%;
+    padding: 0 1em 1em 2em;
     justify-content: space-between;
     @media screen and (min-width: 768px) {
         margin-top: 20px;
@@ -16,10 +17,11 @@ const FAQSectionContainer = styled.div`
         margin-top: 100px;
     }
     @media screen and (min-width: 1200px) {
-        padding: 0 150px 0 150px;
+        padding: 0 100px 0 100px;
         margin-top: 200px;
     }
     @media screen and (min-width: 1400px) {
+        padding: 0 150px 0 150px;
         margin-top: 250px;
       }
 
