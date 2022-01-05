@@ -72,7 +72,7 @@ const TeamCardsContainer = styled.div `
    top: 200px;
   }
   @media screen and (min-width: 1400px) {
-    padding: 0 90px 0 90px;
+    padding: 0 50px 0 50px;
     top: 110px;
   }
 
