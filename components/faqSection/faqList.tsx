@@ -46,6 +46,7 @@ const QuestionText = styled.p `
 `
 
 const AnswerText = styled.p `
+  word-break: break-all;
   font-family: Raleway-Regular;
   margin-top: -1px;
   font-size: 12px;
