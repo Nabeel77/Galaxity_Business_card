@@ -9,6 +9,9 @@ const TeamSectionContainer = styled.div`
     padding: 0 1em 1em 2em;
     height: max-content;
     justify-content: space-between;
+    @media screen and (min-width: 1100px) {
+      padding: 0 50px 0 50px;
+  }
 
 `
 
@@ -25,7 +28,11 @@ const TheTeamText  = styled.p `
         margin-left: -15px;
         font-size: 45px;
     }
+    @media screen and (min-width: 1100px) {
+      margin-left: 35px;
+    }
     @media screen and (min-width: 1400px) {
+      margin-left: 15px;
       font-size: 55px;
     }
 `
@@ -41,12 +48,12 @@ const TeamSectionBackground = styled.img `
     left: -20px;
     height: 85vh;
   }
-  @media screen and (min-width: 1200px) {
-    width: 70rem;
+  @media only screen and (min-width: 1024px) {
+    height: 120vh;
+    left: -300px;
    }
   @media screen and (min-width: 1400px) {
-    width: 95rem;
-    height: 85rem;
+   left: -500px;
   }
 `
 
@@ -59,6 +66,9 @@ const TeamCardsContainer = styled.div `
   }
   @media screen and (min-width: 1024px) {
     margin-left: 0px;
+    margin-top: 200px;
+  }
+  @media screen and (min-width: 1400px) {
     margin-top: 110px;
   }
 

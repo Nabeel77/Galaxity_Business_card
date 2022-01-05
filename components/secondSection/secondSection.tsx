@@ -53,6 +53,7 @@ const MustHaveText = styled.p `
     }
     @media screen and (min-width: 1024px) {
         font-size: 30px;
+        margin-bottom: 40px; 
     }
 `
 const CarouselContainer = styled.div `

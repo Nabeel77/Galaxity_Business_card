@@ -7,20 +7,20 @@ import 'aos/dist/aos.css'
 
 const FAQSectionContainer = styled.div`
     margin-top: 120px;
-    padding: 0 1em 1em 2em;
     width: 100%;
     justify-content: space-between;
     @media screen and (min-width: 768px) {
         margin-top: 20px;
     }
     @media screen and (min-width: 1024px) {
-  
+        margin-top: 100px;
     }
     @media screen and (min-width: 1200px) {
-     
+        padding: 0 150px 0 150px;
+        margin-top: 200px;
     }
     @media screen and (min-width: 1400px) {
-       
+        margin-top: 250px;
       }
 
 `
@@ -36,6 +36,7 @@ const FAQText  = styled.p `
         font-size: 45px;
     }
     @media screen and (min-width: 1100px) {
+        margin-left: 15px;
         font-size: 45px;
     }
     @media screen and (min-width: 1400px) {

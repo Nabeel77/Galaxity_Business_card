@@ -16,12 +16,13 @@ const RoadmapContiner = styled.div `
    
     }
     @media only screen and (min-width: 1024px) {
-        margin-top: 150px;
+        margin-top: 50px;
     }
-    @media only screen and (min-width: 1200px) {
-  
+    @media only screen and (min-width: 1100px) {
+    
     }
     @media only screen and (min-width: 1400px) {
+        padding: 0 150px 0 150px;
         margin-top: 300px;
     }
 `
@@ -39,6 +40,7 @@ const RoadmapText  = styled.p `
         font-size: 45px;
     }
     @media screen and (min-width: 1100px) {
+        margin-left: 100px;
         font-size: 45px;
     }
 

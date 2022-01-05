@@ -50,16 +50,14 @@ const GalabotAndGalaxityTextContainer = styled.div`
         top: 70%;
         left: 30%;
     }
-    @media only screen and (min-width: 1024px) {
-     
-    }
-
-    @media only screen and (min-width: 1200px) {
-       
+    @media only screen and (min-width: 1100px) {
+        top: 350px;
+        left: 27%;
     }
 
     @media only screen and (min-width: 1400px) {
-      
+        top: 500px;
+        left: 35%;
     }
 `
 const GalaxityTextContainer = styled.div`
@@ -101,7 +99,7 @@ const GalaImage = styled.img `
     height: 100%;
    
     @media screen and (min-width: 1024px) {
-       
+        
     }
 `
 
@@ -112,8 +110,10 @@ const IconsContainer = styled.div`
     width: max-content;
     height: max-content;
     @media only screen and (min-width: 1024px) {
+        top: 370px;
     }
     @media only screen and (min-width: 1400px) {
+        top: 520px;
     }
 `
 

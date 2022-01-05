@@ -18,6 +18,9 @@ const ThirdSectionConttainer = styled.div`
     flex-direction: column;
     height: max-content;
     padding: 2em 2em;
+    @media screen and (min-width: 1024px) {
+        margin-top: 80px;
+    }
 `
 
 const NeverEndingTexttContainer = styled.div`

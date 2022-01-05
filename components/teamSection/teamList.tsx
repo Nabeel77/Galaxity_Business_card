@@ -16,14 +16,12 @@ const MainContainer = styled.div `
     height: 50%;
    }
   @media screen and (min-width: 1024px) {
-
-  }
-  @media screen and (min-width: 1200px) {
-    margin-left: 40px;
-  }
-  @media screen and (min-width: 1400px) {
     justify-content: flex-start;
     margin-top: -100px;
+    margin-left: 50px;
+  }
+  @media screen and (min-width: 1400px) {
+    margin-top: -200px;
   }
 `
 
