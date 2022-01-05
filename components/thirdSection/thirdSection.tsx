@@ -64,10 +64,11 @@ const TweetsContainer = styled.div`
     }
     @media screen and (min-width: 1024px) {
         margin-top: 40px;
-        height: 14rem;
+        height: 30vh;
         margin-left: 50px;
     }
     @media screen and (min-width: 1400px) {
+        height: 23vh;
         margin-left: 70px;
     }
   `
@@ -95,7 +96,7 @@ const CarousalContainer = styled.div`
 
 const Tweet = styled.div`
     width: 100%;
-    height: 12vh;
+    height: 13vh;
     padding-left: 20px;
     padding-right: 20px; 
     @media screen and (min-width: 1024px) {
