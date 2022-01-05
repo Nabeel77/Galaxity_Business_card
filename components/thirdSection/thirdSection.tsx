@@ -152,7 +152,7 @@ const ThirdSection: NextPage = () => {
     }, [])
 
     return (
-        <ThirdSectionConttainer >
+        <ThirdSectionConttainer>
             <NeverEndingTexttContainer>
                 <NeverEndingText>Never Ending Battle</NeverEndingText>
             </NeverEndingTexttContainer>

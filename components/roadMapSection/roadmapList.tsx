@@ -94,6 +94,8 @@ const QuarterText = styled.h3 `
         left: 41px;
     }
     @media screen and (min-width: 1400px) {
+        top: 40px;
+        left: 45px;
         top: 45px;  
     }
 `
