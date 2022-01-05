@@ -55,13 +55,12 @@ const TweetsContainer = styled.div`
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
     margin-left: 5px;
     margin-top: 14px; 
-    height: 5rem;
+    height: 15vh;
     padding: 1px 1px 1px 0;
     background: linear-gradient(to left, #41FFFF,#000000);
     border-radius: 17px;
     @media screen and (min-width: 768px) {
         width: 90%;
-        height: 15vh;
     }
     @media screen and (min-width: 1024px) {
         margin-top: 40px;
@@ -96,11 +95,14 @@ const CarousalContainer = styled.div`
 
 const Tweet = styled.div`
     width: 100%;
-    height: 40%;
+    height: 12vh;
     padding-left: 20px;
     padding-right: 20px; 
     @media screen and (min-width: 1024px) {
-       height: 9rem;
+        height: 19vh;
+    }
+    @media screen and (min-width: 1400px) {
+       height: 15vh;
     }
 `
 
@@ -117,13 +119,10 @@ const Rectangle = styled.div<StyleProps>`
 
 const TweetImg = styled.img`
     object-fit: contain;
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
     height: 100%;
     border-radius: 20px;
-    @media screen and (min-width: 769px) {
-        width: 95%;
-    }
 `
 
 const ThirdSection: NextPage = () => {
