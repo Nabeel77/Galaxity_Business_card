@@ -21,25 +21,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  @font-face {
-    font-family: Orbitron;
-    src: url('/fonts/orbitron-Regular.ttf');
-  }
-
-  @font-face {
-    font-family: Raleway-Bold;
-    src: url('/fonts/Raleway-Bold.ttf');
-  }
-
-  @font-face {
-    font-family: Raleway-ExtraLight;
-    src: url('/fonts/Raleway-ExtraLight.ttf');
-  }
-
-  @font-face {
-    font-family: Raleway-Regular;
-    src: url('/fonts/Raleway-Regular.ttf');
-  }
+  
   
 `
 

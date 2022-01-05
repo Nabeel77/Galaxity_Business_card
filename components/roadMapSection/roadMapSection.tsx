@@ -45,6 +45,7 @@ const RoadmapText  = styled.p `
     }
 
     @media screen and (min-width: 1400px) {
+        margin-left: 50px;
         font-size: 55px;
     }
 `

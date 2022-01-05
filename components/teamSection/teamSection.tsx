@@ -32,7 +32,7 @@ const TheTeamText  = styled.p `
       margin-left: 35px;
     }
     @media screen and (min-width: 1400px) {
-      margin-left: 15px;
+      margin-left: 105px;
       font-size: 55px;
     }
 `

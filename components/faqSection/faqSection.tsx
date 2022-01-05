@@ -21,7 +21,7 @@ const FAQSectionContainer = styled.div`
         margin-top: 200px;
     }
     @media screen and (min-width: 1400px) {
-        padding: 0 150px 0 150px;
+        padding: 0 140px 0 140px;
         margin-top: 250px;
       }
 
