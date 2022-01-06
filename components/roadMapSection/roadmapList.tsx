@@ -99,7 +99,7 @@ const QuarterText = styled.p.attrs((props: {text: string}) => props) `
         margin-top: -64px;
         margin-left: ${(props) => props.text === 'Q1' ? '24px' : '21px'};
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1500px) {
         margin-top: -65px;
         margin-left: ${(props) => props.text === 'Q1' ? '25px' : '21px'};
     }

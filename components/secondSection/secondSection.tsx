@@ -12,11 +12,8 @@ const SecondSectionContainer = styled.div `
     flex-direction: column;
     height: max-content;
     padding: 2em 1em;
-    @media screen and (min-width: 768px) {
-       
-    }
     @media screen and (min-width: 1024px) {
-        margin-top: 80px;
+        margin-top: 20%;
         padding: 2em 3em;
     }
     @media screen and (min-width: 1200px) {

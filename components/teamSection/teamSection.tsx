@@ -33,7 +33,7 @@ const TheTeamText  = styled.p `
       margin-top: 90px;
       margin-left: 65px;
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1500px) {
       margin-left: 170px;
     }
 `
@@ -60,7 +60,7 @@ const TeamSectionBackground = styled.img `
     top: 10px;
     left: -225px;
    }
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1500px) {
    left: -450px;
   }
 `
@@ -78,7 +78,7 @@ const TeamCardsContainer = styled.div `
    left: 0px;
    top: 200px;
   }
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1500px) {
     padding: 0 50px 0 50px;
     top: 110px;
   }

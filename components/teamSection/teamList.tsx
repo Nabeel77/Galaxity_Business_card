@@ -24,7 +24,7 @@ const MainContainer = styled.div `
     padding-left: 37px;
     margin-left: 50px;
   }
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1500px) {
     padding-left: 87px;
     margin-left: 100px;
     margin-top: -200px;
@@ -43,7 +43,7 @@ const TeamContainer = styled.div `
    @media screen and (min-width: 1200px) {
     width: 23%;
    }
-   @media screen and (min-width: 1400px) {
+   @media screen and (min-width: 1500px) {
     margin-left: -110px;
     width: 30%;
     height: 65%;
@@ -75,7 +75,7 @@ const TeamItem = styled.div `
     width:  80%;
     height: 40vh;
    }
-   @media screen and (min-width: 1400px) {
+   @media screen and (min-width: 1500px) {
     width:  65%;
     height: 45vh;
    }

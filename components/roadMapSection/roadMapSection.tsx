@@ -16,7 +16,7 @@ const RoadmapContiner = styled.div `
     @media only screen and (min-width: 1024px) {
         margin-top: 50px;
     }
-    @media only screen and (min-width: 1400px) {
+    @media only screen and (min-width: 1800px) {
         padding: 0 150px 0 150px;
         margin-top: 300px;
     }
@@ -39,7 +39,7 @@ const RoadmapText  = styled.p `
         margin-left: 80px;
     }
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1500px) {
         margin-left: 50px;
     }
 `
@@ -53,7 +53,7 @@ const RoadmapListsParentContainer = styled.div `
         flex-direction: row;
         margin-top: 40px;
     }
-    @media screen and (min-width: 1300px) {
+    @media screen and (min-width: 1500px) {
         margin-top: 70px;
     }
 `

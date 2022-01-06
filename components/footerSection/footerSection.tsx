@@ -37,7 +37,7 @@ const GalabotAndGalaxityTextContainer = styled.div`
         top: 300%;
         left: 38%;
     }
-    @media only screen and (min-width: 1400px) {
+    @media only screen and (min-width: 1500px) {
         top: 280%;
     }
 `
@@ -92,7 +92,7 @@ const IconsContainer = styled.div`
     @media only screen and (min-width: 1200px) {
         top: 300%;
     }
-    @media only screen and (min-width: 1400px) {
+    @media only screen and (min-width: 1500px) {
         top: 290%;
     }
 `

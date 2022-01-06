@@ -22,7 +22,7 @@ const ThirdSectionConttainer = styled.div`
         margin-top: 80px;
     }
     @media screen and (min-width: 1200px) {
-        margin-top: 200px;
+        margin-top: 150px;
     }
 `
 
@@ -71,7 +71,7 @@ const TweetsContainer = styled.div`
         height: 30vh;
         margin-left: 50px;
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1500px) {
         height: 23vh;
         margin-left: 70px;
     }
@@ -112,7 +112,7 @@ const Tweet = styled.div`
     @media screen and (min-width: 1200px) {
         height: 19vh;
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1500px) {
        height: 15vh;
     }
 `
@@ -124,8 +124,6 @@ const Rectangle = styled.div<StyleProps>`
     border-radius: 20px;
     background-image: url(${props => props.img});
     background-size: cover;
-    @media screen and (min-width: 800px) {
-    }
 `
 
 const TweetImg = styled.img`
