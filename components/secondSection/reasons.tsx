@@ -33,9 +33,13 @@ const MainContainer = styled.div `
 const ReasonsContainer = styled.div `
   width: 50%;
   @media screen and (min-width: 786px) {
-  width: 20%;
+  width: 25%;
 }
 @media screen and (min-width: 1024px) {
+  width: 19%;
+  margin-left: 8px;
+}
+@media screen and (min-width: 1100px) {
   width: 18%;
   margin-left: 19px;
 }
@@ -45,19 +49,23 @@ const ReasonsContainer = styled.div `
 const ReasonItem = styled.div `
   margin-top: 10px;
   width:  80%;
-  height: 10em;
+  height: 15vh;
   padding: 1px 1px 0 1px;
   background: linear-gradient(to bottom, #41FFFF,#000000);
   border-radius: 17px;
-  @media screen and (min-width: 786px) {
-    height: 15em;
+  @media screen and (min-width: 768px) {
+    height: 20vh;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 25vh;
   }
 `;
 
 const ReasonText = styled.span `
-  font-family: Raleway-Regular;
+  font-family: Raleway-ExtraLight;
   padding: 25px 3px 0 10px;
-  font-size: 12px;
+  font-size: 2.5vw;
+  font-weight: lighter;
   color: white;
   text-align: left;
   letter-spacing: 2px;
@@ -66,8 +74,11 @@ const ReasonText = styled.span `
   border-radius: 17px;
   width: 100%;
   height: 101%;
+  @media screen and (min-width: 768px) {
+    font-size: 1.6vw;
+  }
   @media screen and (min-width: 1024px) {
-    font-size: 15px;
+    font-size: 1vw;
   }
 `
 

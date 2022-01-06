@@ -6,6 +6,14 @@ export const teamListArr: {imageSrc: string, role: string, name: string}[] = [
     
 ]
 
+export const roles: string[] = [
+    "Head of development",
+    "Head of development",
+    "Head of development",
+    "Head of development"
+   
+]
+
 export const teamNames: string[] = [
     "Gala",
     "Davido",

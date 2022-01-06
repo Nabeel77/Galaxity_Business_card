@@ -10,51 +10,58 @@ const TeamSectionContainer = styled.div`
     height: max-content;
     justify-content: space-between;
     @media screen and (min-width: 1100px) {
-      padding: 0 50px 0 50px;
   }
 
 `
 
 const TheTeamText  = styled.p `
     font-family: Orbitron;
-    font-size: 18px;
+    font-size: 5vw;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock};  
     letter-spacing: 0.5em;
     text-align: left;
     color: white;
+    margin-top: 10px;
     position: relative;
-    left: 1rem;
     @media screen and (min-width: 768px) {
-        margin-left: -15px;
-        font-size: 45px;
+        font-size: 4vw;
+        margin-top: 80px;
+        margin-left: 15px;
     }
     @media screen and (min-width: 1100px) {
-      margin-left: 35px;
+      font-size: 2.8vw;
+      margin-top: 90px;
+      margin-left: 65px;
     }
     @media screen and (min-width: 1400px) {
-      margin-left: 105px;
-      font-size: 55px;
+      margin-left: 170px;
     }
 `
+
 
 const TeamSectionBackground = styled.img `
   position: absolute;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: 80vh;
   left: -40px;
-  top: 10px;
-  z-index: 0;
+  top: -40px;
   @media screen and (min-width: 768px) {
     left: -20px;
-    height: 85vh;
+    height: 120vh;
   }
   @media only screen and (min-width: 1024px) {
-    height: 120vh;
-    left: -300px;
+    object-fit: contain;
+    top: -210px;
+    left: -125px;
+   }
+   @media only screen and (min-width: 1200px) {
+    object-fit: contain;
+    height: 140vh;
+    top: 10px;
+    left: -225px;
    }
   @media screen and (min-width: 1400px) {
-   left: -500px;
+   left: -450px;
   }
 `
 

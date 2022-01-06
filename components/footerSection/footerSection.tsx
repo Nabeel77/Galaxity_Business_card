@@ -7,89 +7,70 @@ const FooterContainer = styled.div`
     width: 100%;
     height: 30vh;
     position: relative;
-    @media screen and (min-width: 768px) {
-  
-    }
-    @media only screen and (min-width: 1024px) {
-   
-    }
-    @media only screen and (min-width: 1100px) {
-   
-    }
-    @media only screen and (min-width: 1400px) {
-       
-    }
+    top: -150px;
 `
 
 const FooterBackground = styled.img `
   width: 100%;
-  height: 100%;
+  height: 50vh;
   position: absolute;
-  @media only screen and (min-width: 768px) {
-
-  }  
-  @media only screen and (min-width: 1024px) {
-
-  }   
   @media only screen and (min-width: 1100px) {
-    height: 230%;
+    top: -130px;
+    height: 135vh;
+ }
+ @media only screen and (min-width: 1500px) {
+    height: 125vh;
  }
 `
 
 const GalabotAndGalaxityTextContainer = styled.div`
     position: absolute;
-    top: 70%;
-    left: 20%;
+    top: 130%;
+    left: 35%;
     display: flex;
-    width: 80%;
+    width: 60%;
     height: max-content;
     justify-content: space-evenly;
     align-items: center;
-    @media screen and (min-width: 768px) {
-        width: 60%;
-        top: 70%;
-        left: 30%;
-    }
     @media only screen and (min-width: 1100px) {
-        top: 350px;
-        left: 27%;
+        top: 300%;
+        left: 42%;
     }
-
     @media only screen and (min-width: 1400px) {
-        top: 500px;
-        left: 35%;
+        top: 280%;
+        left: 38%;
     }
 `
 const GalaxityTextContainer = styled.div`
     display: flex;
     align-items: center;
     height: 100%;
-    width: 60%;
+    width: 80%;
 `
 
 const GalaxityText = styled.p `
   font-family: Orbitron;
-  font-size: 10px;
+  font-size: 3vw;
   letter-spacing: 1em;
   width: max-content;
   height: max-content;
-  color: ${({ theme }) => theme.colors.primary};
-  @media screen and (min-width: 768px) {
-    font-size: 20px;
-  }
+  color: white;
   @media only screen and (min-width: 1024px) {
-    font-size: 40px;
- }
- @media only screen and (min-width: 1400px) {
-    font-size: 45px;
+    letter-spacing: 1.3em;
+    font-size: 2.4vw;
  }
 `
 const GalaImageContainer = styled.div`
     height: 60%;
     width: 20%;
+    object-fit: contain;
     @media screen and (min-width: 1080px) {
         height: 50%;
         width: 15%;
+    }
+    @media screen and (min-width: 1500px) {
+        height: 40%;
+        width: 10%;
     }
 `
 
@@ -97,23 +78,22 @@ const GalaImage = styled.img `
     float: right;
     width: 100%;
     height: 100%;
-   
-    @media screen and (min-width: 1024px) {
-        
-    }
 `
 
 const IconsContainer = styled.div`
     position: absolute;
-    top: 70%;
+    top: 130%;
     left: 5%;
     width: max-content;
     height: max-content;
-    @media only screen and (min-width: 1024px) {
-        top: 370px;
+    @media only screen and (min-width: 768px) {
+        top: 140%;
+    }
+    @media only screen and (min-width: 1200px) {
+        top: 300%;
     }
     @media only screen and (min-width: 1400px) {
-        top: 520px;
+        top: 290%;
     }
 `
 
@@ -121,7 +101,7 @@ const Footer: NextPage = () => {
 
     return (
         <FooterContainer>
-            <FooterBackground src="/images/mint_footer.png" alt="footer-image"/>
+            <FooterBackground src="/images/footer_background.png" alt="footer-image"/>
             <GalabotAndGalaxityTextContainer>
                 <GalaImageContainer>
                     <GalaImage alt="gala-bot" src="/images/galabot_mini.png"/>

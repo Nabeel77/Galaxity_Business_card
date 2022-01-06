@@ -10,7 +10,6 @@ import styled from 'styled-components'
  * */
 
 const FAQsParentContainer = styled.div `
-
     width: 70%;
     display: flex; 
     flex-direction: column;
@@ -26,38 +25,39 @@ const SingleFAQContainer = styled.div `
     flex-direction: column;
     justify-content: flex-start;
     word-wrap:break-word;
+    margin-bottom: -10px;
 `
 
 const QuestionText = styled.p `
   word-break: break-all;
   font-family: Raleway-regular;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 3vw;
   height: max-content;
   color: ${({ theme }) => theme.colors.primary};
   @media screen and (min-width: 768px) {
-    font-size: 20px;
+    font-size: 2vw;
   }
   @media screen and (min-width: 1024px) {
     font-family: Raleway-bold;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1vw;
   }
 `
 
 const AnswerText = styled.p `
   word-break: break-all;
-  font-family: Raleway-Regular;
-  margin-top: -1px;
-  font-size: 12px;
+  font-family: Raleway-ExtraLight;
+  margin-top: -12px;
+  font-size: 3vw;
   overflow-wrap: normal;
   height: max-content;
   color: white;
   @media screen and (min-width: 768px) {
-    font-size: 20px;
+    font-size: 2vw;
   }
   @media screen and (min-width: 1024px) {
-    font-size: 16px;
+    margin-top: -6px;
+    font-size: 1vw;
   }
 `
 

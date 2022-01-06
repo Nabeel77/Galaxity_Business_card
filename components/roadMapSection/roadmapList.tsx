@@ -24,11 +24,11 @@ const RoadmapListBox = styled.div `
     background: linear-gradient(to left, #41FFFF,#000000);
     border-radius: 15px;
     @media screen and (min-width: 1100px) {
-        margin-top: 40px;
+        margin-top: 30px;
         width: 90%;
     }
     @media screen and (min-width: 1400px) {
-        margin-top: 55px;
+        margin-top: 45px;
     }
     
   `
@@ -55,48 +55,53 @@ const RoadmapListBox = styled.div `
     @media screen and (min-width: 1024px) {
         padding-left: 50px;
         padding-top: 20px;
-        font-size: 1.2vw;
+        font-size: 1.1vw;
     }
 `
-const Circle = styled.img `
+const CircleContainer = styled.div `
     position: relative;
     width: 60px;
     height: 60px;
     left: -11px;
-    top: 14px;
     @media screen and (min-width: 768px) {
         left: 13px;
         width: 90px;
         height: 90px;
     }
     @media screen and (min-width: 1100px) {
-        top: 30px;
+        top: 15px;
         left: 11px
     }
     @media screen and (min-width: 1400px) {
-        top: 40px;
+        top: 25px;
         left: 20px
     }
 `
-const QuarterText = styled.h3 `
-    position: absolute;
-    left: 9px;
-    top: 20px;
+
+const Circle = styled.img `
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+`
+const QuarterText = styled.p.attrs((props: {text: string}) => props) `
+    margin-left: ${(props) => props.text === 'Q1' ? '19px' : '16px'};
+    margin-top: -47px;
     font-family: Orbitron;
-    font-size: 14px;
+    font-weight: 100;
+    font-size: 18px;
     color: white;
     @media screen and (min-width: 768px) {
-        left: 40px;
-        font-size: 23px;
+        margin-top: -64px;
+        margin-left: ${(props) => props.text === 'Q1' ? '29px' : '26px'};
+        font-size: 24px;
     }
-    @media screen and (min-width: 1100px) {
-        top: 35px;
-        left: 41px;
+    @media screen and (min-width: 1024px) {
+        margin-top: -64px;
+        margin-left: ${(props) => props.text === 'Q1' ? '24px' : '21px'};
     }
     @media screen and (min-width: 1400px) {
-        top: 40px;
-        left: 45px;
-        top: 45px;  
+        margin-top: -65px;
+        margin-left: ${(props) => props.text === 'Q1' ? '25px' : '21px'};
     }
 `
     
@@ -109,8 +114,11 @@ const RoadmapList = (props: roadmapList) => {
 
     const content = 
     <RoadmapContentContainer>
+        <CircleContainer>
         <Circle alt="road-map-circle" src="/images/circle.png" />
-        <QuarterText>{props.QuarterText}</QuarterText>
+        <QuarterText text={props.QuarterText}>{props.QuarterText}</QuarterText>
+        </CircleContainer>
+        
         <RoadmapListBoxContainer>
             {props.roadmapListArray.map((task: string, index: number) => {
                 return (

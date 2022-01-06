@@ -16,11 +16,14 @@ const SecondSectionContainer = styled.div `
        
     }
     @media screen and (min-width: 1024px) {
-        margin-top: 150px;
+        margin-top: 80px;
         padding: 2em 3em;
     }
-    @media screen and (min-width: 1400px) {
-       margin-top: 200px;
+    @media screen and (min-width: 1200px) {
+        margin-top: 200px;
+    }
+    @media screen and (min-width: 1500px) {
+       margin-top: 300px;
     }
 `
 
@@ -42,17 +45,16 @@ const TextContainer = styled.div `
 
 const MustHaveText = styled.p `
     font-family: Orbitron;
-    font-size: 11px;
+    font-size: 3vw;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
-    margin-bottom: 10px; 
+    margin-bottom: 20px; 
     letter-spacing: 0.5em;
     text-align: left;
-    color: ${({ theme }) => theme.colors.primary};
+    color: white;
     @media screen and (min-width: 768px) {
-        font-size: 20px;
+        font-size: 1.8vw;
     }
     @media screen and (min-width: 1024px) {
-        font-size: 30px;
         margin-bottom: 40px; 
     }
 `

@@ -27,7 +27,7 @@ const Discord = styled.a`
     &:hover {
         color: #9680E7;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1024px) {
         font-size: 40px;
     }
 `
@@ -42,7 +42,7 @@ const Twitter = styled.a`
     &:hover {
         color: #26A4F2;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1024px) {
         font-size: 40px;
     }
 `

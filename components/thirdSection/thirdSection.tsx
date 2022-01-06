@@ -21,6 +21,9 @@ const ThirdSectionConttainer = styled.div`
     @media screen and (min-width: 1024px) {
         margin-top: 80px;
     }
+    @media screen and (min-width: 1200px) {
+        margin-top: 200px;
+    }
 `
 
 const NeverEndingTexttContainer = styled.div`
@@ -38,15 +41,12 @@ const NeverEndingText = styled.p`
     font-family: Orbitron;
     display: ${({ theme }) => theme.centerChildStyle.inlineBlock}; 
     margin: ${({ theme }) => theme.centerChildStyle.margin}; 
-    font-size: 12px;
+    font-size: 3.5vw;
     letter-spacing: 0.6em;
     text-align: left;
     color: white;
     @media screen and (min-width: 768px) {
-        font-size: 25px;
-    }
-    @media screen and (min-width: 1100px) {
-        font-size: 40px;
+        font-size: 2.5vw;
     }
 `
 
@@ -63,6 +63,10 @@ const TweetsContainer = styled.div`
         width: 90%;
     }
     @media screen and (min-width: 1024px) {
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    @media screen and (min-width: 1200px) {
         margin-top: 40px;
         height: 30vh;
         margin-left: 50px;
@@ -90,6 +94,9 @@ const CarousalContainer = styled.div`
     height: 100%;
     margin-top: -10px;
     @media screen and (min-width: 1024px) {
+        margin-top: 15px;
+    }
+    @media screen and (min-width: 1200px) {
         margin-top: 20px;
     }
 `
@@ -100,6 +107,9 @@ const Tweet = styled.div`
     padding-left: 20px;
     padding-right: 20px; 
     @media screen and (min-width: 1024px) {
+        height: 10vh;
+    }
+    @media screen and (min-width: 1200px) {
         height: 19vh;
     }
     @media screen and (min-width: 1400px) {
@@ -143,9 +153,9 @@ const ThirdSection: NextPage = () => {
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
-            if (window.innerWidth >= 1300 ) {
+            if (window.innerWidth >= 1400 ) {
                 setSlidesToShow(3);
-            } else if (window.innerWidth > 768 && window.innerWidth < 1300) {
+            } else if (window.innerWidth > 1100 && window.innerWidth < 1300) {
                 setSlidesToShow(2);
             }
         }

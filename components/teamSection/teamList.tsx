@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import styled from 'styled-components'
-import { teamListArr, teamNames } from '../data/teamData';
+import { teamListArr, teamNames, roles } from '../data/teamData';
 import { boxGradientBorderBackgroundSpanVertical } from '../globalStyles';
 
 
@@ -18,9 +18,14 @@ const MainContainer = styled.div `
   @media screen and (min-width: 1024px) {
     justify-content: flex-start;
     margin-top: -100px;
+    margin-left: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-left: 37px;
     margin-left: 50px;
   }
   @media screen and (min-width: 1400px) {
+    padding-left: 87px;
     margin-left: 100px;
     margin-top: -200px;
   }
@@ -35,12 +40,8 @@ const TeamContainer = styled.div `
     @media screen and (min-width: 786px) {
      
    }
-   @media screen and (min-width: 1024px) {
-    margin-left: 13px;
-    width: 23%;
-   }
    @media screen and (min-width: 1200px) {
-    width: 21%;
+    width: 23%;
    }
    @media screen and (min-width: 1400px) {
     margin-left: -110px;
@@ -51,6 +52,7 @@ const TeamContainer = styled.div `
 `
 
 const LibauGalaBot = styled.img `
+  object-fit: contain;  
   width: 100%;
   height: 100%;
 `
@@ -66,29 +68,42 @@ const TeamItem = styled.div `
     height: 60%;
    }
    @media screen and (min-width: 1024px) {
-    width:  80%;
-    height: 35vh;
+    width:  65%;
+    height: 30vh;
    }
    @media screen and (min-width: 1100px) {
-    width:  85%;
+    width:  80%;
+    height: 40vh;
    }
    @media screen and (min-width: 1400px) {
     width:  65%;
-    height: 40vh;
+    height: 45vh;
    }
 `;
 
-const Name = styled.p `
-  font-family: Raleway-Regular;
+const Role = styled.p `
+  font-family: Raleway-ExtraLight;
   margin-top: 20px;
   color: white;
-  font-size: 12px;
-  @media screen and (min-width: 768px) {
-    font-size: 35px;
-   }
-
+  font-size: 11px;
    @media screen and (min-width: 768px) {
-    font-size: 25px;
+    font-size: 12px;
+   }
+   @media screen and (min-width: 1500px) {
+    font-size: 16px;
+   }
+`
+
+const Name = styled.p `
+  font-family: Raleway-ExtraLight;
+  margin-top: -5px;
+  color: white;
+  font-size: 12px;
+   @media screen and (min-width: 768px) {
+    font-size: 15px;
+   }
+   @media screen and (min-width: 1500px) {
+    font-size: 20px;
    }
 `
 
@@ -116,6 +131,7 @@ const TeamList: NextPage = () => {
                       <LibauGalaBot src={item.imageSrc} alt='gala-bot'/>
                   </TeamItemBackground>
                 </TeamItem>
+                <Role>{roles[index]}</Role>
                 <Name>{teamNames[index]}</Name>
               </TeamContainer>
             ))}

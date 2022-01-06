@@ -4,19 +4,22 @@ import Icons from '../icons'
 
 const HeroContainer = styled.div`
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   justify-content: flex-start;
   position: relative;
   align-items: center;
   @media screen and (min-width: 540px) {
+    height: 40vh;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 900px) {
     height: 50vh;
   }
-  @media only screen and (min-width: 1080px) {
-    width: 100%;
-    height: 100vh
+  @media screen and (min-width: 1024px) {
+    height: 35vh;
+  }
+  @media only screen and (min-width: 1200px) {
+    height: 95vh
   }
 `
 
@@ -40,8 +43,11 @@ const HeroImage = styled.img `
   width: 125%;
   margin-left: -10px;
   object-fit: contain;
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 540px) {
     width: 105%;
+  }
+  @media only screen and (min-width: 1200px) {
+    width: 115%;
   }
 `
 
@@ -52,16 +58,15 @@ const GalaxityTextContainer = styled.div `
   height: max-content;
   margin-top: 45%;
   margin-left: -2vw;
-  @media only screen and (min-width: 768px) {
-    
+  @media only screen and (min-width: 550px) {
+    margin-top: 35%;
+    margin-left: -8vw;
   }
   @media only screen and (min-width: 1024px) {
     margin-top: 40%;
-    margin-left: -8vw;
   }
-  @media only screen and (min-width: 1400px) {
-    margin-top: 38%;
-    margin-left: -9vw;
+  @media only screen and (min-width: 1200px) {
+    margin-top: 45%;
   }
 `
 
