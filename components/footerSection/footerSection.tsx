@@ -8,6 +8,7 @@ const FooterContainer = styled.div`
     height: 30vh;
     position: relative;
     top: -150px;
+    
 `
 
 const FooterBackground = styled.img `
@@ -34,11 +35,10 @@ const GalabotAndGalaxityTextContainer = styled.div`
     align-items: center;
     @media only screen and (min-width: 1100px) {
         top: 300%;
-        left: 42%;
+        left: 38%;
     }
     @media only screen and (min-width: 1400px) {
         top: 280%;
-        left: 38%;
     }
 `
 const GalaxityTextContainer = styled.div`
