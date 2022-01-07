@@ -71,7 +71,7 @@ const TweetsContainer = styled.div`
         height: 30vh;
         margin-left: 50px;
     }
-    @media screen and (min-width: 1500px) {
+    @media screen and (min-width: 1600px) {
         height: 23vh;
         margin-left: 70px;
     }
@@ -112,7 +112,7 @@ const Tweet = styled.div`
     @media screen and (min-width: 1200px) {
         height: 19vh;
     }
-    @media screen and (min-width: 1500px) {
+    @media screen and (min-width: 1600px) {
        height: 15vh;
     }
 `
@@ -151,9 +151,9 @@ const ThirdSection: NextPage = () => {
 
     useEffect(() => {
         if (typeof window !== 'undefined') {
-            if (window.innerWidth >= 1400 ) {
+            if (window.innerWidth >= 1600 ) {
                 setSlidesToShow(3);
-            } else if (window.innerWidth > 1100 && window.innerWidth < 1300) {
+            } else if (window.innerWidth > 1100 && window.innerWidth < 1600) {
                 setSlidesToShow(2);
             }
         }

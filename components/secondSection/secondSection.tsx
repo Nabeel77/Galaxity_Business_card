@@ -19,7 +19,7 @@ const SecondSectionContainer = styled.div `
     @media screen and (min-width: 1200px) {
         margin-top: 200px;
     }
-    @media screen and (min-width: 1500px) {
+    @media screen and (min-width: 1600px) {
        margin-top: 300px;
     }
 `

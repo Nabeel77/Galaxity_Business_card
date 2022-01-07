@@ -85,7 +85,7 @@ const GalaxityText = styled.p `
   }
   @media only screen and (min-width: 1200px) {
   }
-  @media only screen and (min-width: 1500px) {
+  @media only screen and (min-width: 1600px) {
   }
 `
 const NftText = styled.p `
@@ -105,7 +105,7 @@ const NftText = styled.p `
     margin-top: -20px;
     font-size: 1.1vw;
   }
-  @media only screen and (min-width: 1500px) {
+  @media only screen and (min-width: 1600px) {
 
    
   }

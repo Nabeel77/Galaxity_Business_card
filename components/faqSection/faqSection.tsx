@@ -18,9 +18,9 @@ const FAQSectionContainer = styled.div`
     }
     @media screen and (min-width: 1200px) {
         padding: 0 100px 0 100px;
-        margin-top: 350px;
+        margin-top: 400px;
     }
-    @media screen and (min-width: 1500px) {
+    @media screen and (min-width: 1600px) {
         padding: 0 140px 0 140px;
         margin-top: 340px;
       }
@@ -40,7 +40,7 @@ const FAQText  = styled.p `
     @media screen and (min-width: 1100px) {
         font-size: 2.5vw;
     }
-    @media screen and (min-width: 1500px) {
+    @media screen and (min-width: 1600px) {
     }
 `
 

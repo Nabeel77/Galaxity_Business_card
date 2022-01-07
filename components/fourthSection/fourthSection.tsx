@@ -24,7 +24,7 @@ const BackgroundImage = styled.img `
     width: 65%;
     margin-left: -150px;
   }
-  @media screen and (min-width: 1500px) {
+  @media screen and (min-width: 1600px) {
     width: 60%;
     margin-left: -230px;
   }
@@ -51,7 +51,7 @@ const MintedNftsBox = styled.div `
         margin-left: 20%;
         margin-top: -40%;
     }
-    @media only screen and (min-width: 1500px) {
+    @media only screen and (min-width: 1600px) {
         width: 35%;
     }
   `
@@ -82,7 +82,11 @@ const MintedNftsBox = styled.div `
         padding-top: 30px;
         font-size: 32px;
     }
-    @media only screen and (min-width: 1500px) {
+    @media only screen and (min-width: 1300px) {
+        padding-top: 30px;
+        font-size: 38px;
+    }
+    @media only screen and (min-width: 1600px) {
         font-size: 48px;
     }
 `

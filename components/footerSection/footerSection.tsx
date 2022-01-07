@@ -19,7 +19,7 @@ const FooterBackground = styled.img `
     top: -130px;
     height: 135vh;
  }
- @media only screen and (min-width: 1500px) {
+ @media only screen and (min-width: 1600px) {
     height: 125vh;
  }
 `
@@ -37,7 +37,7 @@ const GalabotAndGalaxityTextContainer = styled.div`
         top: 300%;
         left: 38%;
     }
-    @media only screen and (min-width: 1500px) {
+    @media only screen and (min-width: 1600px) {
         top: 280%;
     }
 `
@@ -68,7 +68,7 @@ const GalaImageContainer = styled.div`
         height: 50%;
         width: 15%;
     }
-    @media screen and (min-width: 1500px) {
+    @media screen and (min-width: 1600px) {
         height: 40%;
         width: 10%;
     }
@@ -92,7 +92,7 @@ const IconsContainer = styled.div`
     @media only screen and (min-width: 1200px) {
         top: 300%;
     }
-    @media only screen and (min-width: 1500px) {
+    @media only screen and (min-width: 1600px) {
         top: 290%;
     }
 `
