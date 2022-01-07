@@ -29,7 +29,7 @@ const SingleFAQContainer = styled.div `
 `
 
 const QuestionText = styled.p `
-  word-wrap: break-word
+  word-wrap: break-word;
   font-family: Raleway-regular;
   font-size: 3vw;
   height: max-content;
@@ -45,7 +45,7 @@ const QuestionText = styled.p `
 `
 
 const AnswerText = styled.p `
-  word-wrap: break-word
+  word-wrap: break-word;
   font-family: Raleway-ExtraLight;
   margin-top: -12px;
   font-size: 3vw;

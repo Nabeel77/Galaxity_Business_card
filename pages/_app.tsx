@@ -13,8 +13,6 @@ const GlobalStyle = createGlobalStyle`
     background-color: #000000;
   }
 
-  font-family: 'Orbitron', 'Raleway', sans-serif;
-
   a {
     color: inherit;
     text-decoration: none;
